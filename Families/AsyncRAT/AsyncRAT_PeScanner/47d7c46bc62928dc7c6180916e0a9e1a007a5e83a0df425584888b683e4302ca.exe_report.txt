@@ -1,0 +1,32 @@
+##########################################################################################
+[0] File: /mnt/1C00FDE800FDC932/Amostra/AsyncRAT/AsyncRAT_bruto/47d7c46bc62928dc7c6180916e0a9e1a007a5e83a0df425584888b683e4302ca.exe
+##########################################################################################
+
+Meta-data
+==========================================================================================
+Size		: 3585536 bytes
+Type		: PE32 executable for MS Windows 4.00 (GUI), Intel i386 Mono/.Net assembly, 5 sections
+Architecture	: 32 Bits binary
+MD5		: 865ae2ef98936d75a5a3e0f742eb5e09
+SHA1		: e61e9818bf8f1284624284270b6618fde09f87c4
+SHA256		: 47d7c46bc62928dc7c6180916e0a9e1a007a5e83a0df425584888b683e4302ca
+Date		: 0x60322260 [Sun Feb 21 09:05:36 2021 UTC]
+CRC:	(Claimed) : 0x0, (Actual): 0x374b68 [SUSPICIOUS]
+Language	: LANG_NEUTRAL, SUBLANG_NEUTRAL
+Entry Point	: 0x8277fa 100A18AD 2/5 [SUSPICIOUS]
+
+Sections
+==========================================================================================
+Name       VirtAddr     VirtSize     RawSize    MD5                              Entropy
+------------------------------------------------------------------------------------------
+7A6F7DE1     0x2000       0x1fe184     0x0        d41d8cd98f00b204e9800998ecf8427e 0.000000     [SUSPICIOUS]
+10EBA928     0x202000     0x2237d2     0x0        d41d8cd98f00b204e9800998ecf8427e 0.000000     [SUSPICIOUS]
+100A18AD     0x426000     0x36a91c     0x36aa00   641eda18a90acbca05f8b7f8f078654a 7.983273     [SUSPICIOUS]
+10D62F6A     0x792000     0x4f8        0x600      8f0299dccbbf2d151012f3603f3e2fa2 3.729055    
+AC3452B0     0x794000     0xc          0x200      dae89abaff36f3945bd83975747357a4 0.122276     [SUSPICIOUS]
+
+Imports
+==========================================================================================
+[1] b'mscoree.dll'
+	0x82a000 b'_CorExeMain'
+
