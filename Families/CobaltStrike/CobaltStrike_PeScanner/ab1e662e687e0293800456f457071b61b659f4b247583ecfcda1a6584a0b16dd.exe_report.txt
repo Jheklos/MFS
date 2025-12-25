@@ -1,0 +1,39 @@
+##########################################################################################
+[0] File: /mnt/1C00FDE800FDC932/Amostra/CobaltStrike/CobaltStrike_bruto/ab1e662e687e0293800456f457071b61b659f4b247583ecfcda1a6584a0b16dd.exe
+##########################################################################################
+
+Meta-data
+==========================================================================================
+Size		: 335872 bytes
+Type		: PE32+ executable for MS Windows 6.01 (DLL), x86-64 (stripped to external PDB), 3 sections
+Architecture	: 64 Bits binary
+MD5		: 370879b160b20c7ce2aa92976f4ee72f
+SHA1		: 0b41256415d0061adcb12fe70249de05845c0cb6
+SHA256		: ab1e662e687e0293800456f457071b61b659f4b247583ecfcda1a6584a0b16dd
+Date		: 0x60D55AC3 [Fri Jun 25 04:25:39 2021 UTC]
+CRC:	(Claimed) : 0x0, (Actual): 0x5bdbb [SUSPICIOUS]
+Language	: []
+Entry Point	: 0x3a300ada0 gktzirky 1/3 [SUSPICIOUS]
+
+Sections
+==========================================================================================
+Name       VirtAddr     VirtSize     RawSize    MD5                              Entropy
+------------------------------------------------------------------------------------------
+eqoycexa     0x1000       0xf9000      0x0        d41d8cd98f00b204e9800998ecf8427e 0.000000     [SUSPICIOUS]
+gktzirky     0xfa000      0x52000      0x51c00    0dcad35d38e51983f4ce38d621a5fde1 7.998231     [SUSPICIOUS]
+cempuefe     0x14c000     0x1000       0x200      14979735f8be5f1cea5ebc7f1ac77041 3.035807    
+
+Imports
+==========================================================================================
+[1] b'KERNEL32.DLL'
+	0x3a300c03c b'LoadLibraryA'
+	0x3a300c044 b'GetProcAddress'
+	0x3a300c04c b'VirtualProtect'
+[2] b'msvcrt.dll'
+	0x3a300c05c b'free'
+
+Exports
+==========================================================================================
+[1] 0x6faf0 b'StartW'
+[2] 0x13cb20 b'_cgo_dummy_export'
+
