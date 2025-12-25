@@ -1,0 +1,32 @@
+##########################################################################################
+[0] File: /mnt/1C00FDE800FDC932/Amostra/CobaltStrike/CobaltStrike_bruto/f0b6c73ee9bd2cee5b0ef10f65386ad1312f01227551cc99ef9997df2372d272.exe
+##########################################################################################
+
+Meta-data
+==========================================================================================
+Size		: 320272 bytes
+Type		: PE32+ executable for MS Windows 5.02 (DLL), x86-64 (stripped to external PDB), 2 sections
+Architecture	: 64 Bits binary
+MD5		: f43a30b1cd1fbe69a2a7ad2ae4a9a70f
+SHA1		: 0571abe5132604dc55a398c1ae00c95b8955b7e7
+SHA256		: f0b6c73ee9bd2cee5b0ef10f65386ad1312f01227551cc99ef9997df2372d272
+Date		: 0x5C0F827D [Tue Dec 11 09:25:17 2018 UTC]
+CRC:	(Claimed) : 0x0, (Actual): 0x505ed [SUSPICIOUS]
+Language	: []
+Entry Point	: 0x1800110c5 .MPRESS2 1/2 [SUSPICIOUS]
+
+Sections
+==========================================================================================
+Name       VirtAddr     VirtSize     RawSize    MD5                              Entropy
+------------------------------------------------------------------------------------------
+.MPRESS1     0x1000       0x10000      0x5000     65600474befc8821a6407e71d1227d5c 7.988800     [SUSPICIOUS]
+.MPRESS2     0x11000      0xbcf        0xc00      f0284918630aec718454b04f2da164ec 6.097036    
+
+Imports
+==========================================================================================
+[1] b'KERNEL32'
+	0x18001103c b'GetModuleHandleA'
+	0x180011044 b'GetProcAddress'
+[2] b'WININET.dll'
+	0x180011054 b'InternetOpenA'
+
