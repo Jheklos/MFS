@@ -1,0 +1,75 @@
+##########################################################################################
+[0] File: /mnt/1C00FDE800FDC932/Amostra/IceID/IceID_bruto/8f9b032ff6f56a685f4c6f9eb57784811d6c98aa83b0c6371e81814edbcd2738.exe
+##########################################################################################
+
+Meta-data
+==========================================================================================
+Size		: 347648 bytes
+Type		: PE32+ executable for MS Windows 6.01 (DLL), x86-64 (stripped to external PDB), 3 sections
+Architecture	: 64 Bits binary
+MD5		: dab66c277887c4fb2c55748681a768a1
+SHA1		: a39a2e78f941cd98542a6cd5c27d960e5e81c043
+SHA256		: 8f9b032ff6f56a685f4c6f9eb57784811d6c98aa83b0c6371e81814edbcd2738
+Date		: 0x60D4CE1B [Thu Jun 24 18:25:31 2021 UTC]
+CRC:	(Claimed) : 0x0, (Actual): 0x5acfe [SUSPICIOUS]
+Language	: []
+Entry Point	: 0x2241317b0 hootwteg 1/3 [SUSPICIOUS]
+
+Sections
+==========================================================================================
+Name       VirtAddr     VirtSize     RawSize    MD5                              Entropy
+------------------------------------------------------------------------------------------
+ftvwrbda     0x1000       0xfd000      0x0        d41d8cd98f00b204e9800998ecf8427e 0.000000     [SUSPICIOUS]
+hootwteg     0xfe000      0x55000      0x54600    c08444bdb421a39eb5364c6d6fb7ee3e 7.998582     [SUSPICIOUS]
+hgosqwxy     0x153000     0x1000       0x600      d226ea3026bd75c565a0557ba8683c12 4.398569    
+
+Imports
+==========================================================================================
+[1] b'KERNEL32.DLL'
+	0x22413303c b'LoadLibraryA'
+	0x224133044 b'GetProcAddress'
+	0x22413304c b'VirtualProtect'
+[2] b'msvcrt.dll'
+	0x22413305c b'free'
+
+Exports
+==========================================================================================
+[1] 0x70f20 b'DllGetClassObject'
+[2] 0x70f30 b'DllRegisterServer'
+[3] 0x70f40 b'PluginInit'
+[4] 0x143b20 b'_cgo_dummy_export'
+[5] 0x70850 b'ahkdrbwwmxygo'
+[6] 0x70a30 b'bjmviinau'
+[7] 0x70df0 b'bnpdgzhwfjguorkb'
+[8] 0x708f0 b'coxhhumghepfhc'
+[9] 0x708a0 b'dozxuddrzbycoj'
+[10] 0x70580 b'dpccwqmcyxdpf'
+[11] 0x70b20 b'fjhlwhzqmyyhrihl'
+[12] 0x704c0 b'gcykagoeheb'
+[13] 0x70c10 b'gqxehoacncgmfp'
+[14] 0x70da0 b'hataobuhn'
+[15] 0x70bc0 b'hwgrnjadcsuu'
+[16] 0x703e0 b'iihkhgfy'
+[17] 0x70cb0 b'kxlfnev'
+[18] 0x70e40 b'marrokllpcdkzax'
+[19] 0x70d50 b'mfexmszc'
+[20] 0x70530 b'ndjrgdlavdmheb'
+[21] 0x70c60 b'ndvbneokntqo'
+[22] 0x705d0 b'nrtnehyif'
+[23] 0x70b70 b'orvprhs'
+[24] 0x70990 b'pitstvpivzsyo'
+[25] 0x706c0 b'qibukzhkwhgwxa'
+[26] 0x70ad0 b'rrfrfukdgzu'
+[27] 0x70e90 b'rrthevwvsbfnrh'
+[28] 0x70450 b'skfhgaaep'
+[29] 0x70670 b'sykicdsyflzeknp'
+[30] 0x70760 b'trdzfcsxgd'
+[31] 0x70d00 b'tthahgyfifaag'
+[32] 0x707b0 b'ufpyvnhuzixmja'
+[33] 0x709e0 b'vhjkrkkdiqj'
+[34] 0x70800 b'xtdblahxrusap'
+[35] 0x70940 b'xumdqpui'
+[36] 0x70a80 b'xzhsxrqxebd'
+[37] 0x70620 b'yiyvjwazprucojf'
+[38] 0x70710 b'zubbkzgdbaamqgf'
+
