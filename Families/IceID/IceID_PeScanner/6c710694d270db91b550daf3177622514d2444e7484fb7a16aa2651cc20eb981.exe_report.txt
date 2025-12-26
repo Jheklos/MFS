@@ -1,0 +1,112 @@
+##########################################################################################
+[0] File: /mnt/1C00FDE800FDC932/Amostra/IceID/IceID_bruto/6c710694d270db91b550daf3177622514d2444e7484fb7a16aa2651cc20eb981.exe
+##########################################################################################
+
+Meta-data
+==========================================================================================
+Size		: 430080 bytes
+Type		: PE32+ executable for MS Windows 6.01 (DLL), x86-64 (stripped to external PDB), 3 sections
+Architecture	: 64 Bits binary
+MD5		: 0ecd28f83aa91f4cef3d45f201cc1da9
+SHA1		: 418c098e25955a7077d8fbd53e6ee9c0b0b74774
+SHA256		: 6c710694d270db91b550daf3177622514d2444e7484fb7a16aa2651cc20eb981
+Date		: 0x60D1A8C3 [Tue Jun 22 09:09:23 2021 UTC]
+CRC:	(Claimed) : 0x0, (Actual): 0x74f0b [SUSPICIOUS]
+Language	: []
+Entry Point	: 0x1f3243130 ranxtnkm 1/3 [SUSPICIOUS]
+
+Sections
+==========================================================================================
+Name       VirtAddr     VirtSize     RawSize    MD5                              Entropy
+------------------------------------------------------------------------------------------
+mcmawisn     0x1000       0xea000      0x0        d41d8cd98f00b204e9800998ecf8427e 0.000000     [SUSPICIOUS]
+ranxtnkm     0xeb000      0x69000      0x68600    2c5b0e47a0c247c900375ff8a0ac97d1 7.883030     [SUSPICIOUS]
+ociuqdtz     0x154000     0x1000       0x800      99189f540d16616eae8eb893e6e51b3e 5.427291    
+
+Imports
+==========================================================================================
+[1] b'KERNEL32.DLL'
+	0x1f324403c b'LoadLibraryA'
+	0x1f3244044 b'GetProcAddress'
+	0x1f324404c b'VirtualProtect'
+[2] b'msvcrt.dll'
+	0x1f324405c b'free'
+
+Exports
+==========================================================================================
+[1] 0x71f50 b'DllGetClassObject'
+[2] 0x71f60 b'DllRegisterServer'
+[3] 0x71f70 b'PluginInit'
+[4] 0x145b20 b'_cgo_dummy_export'
+[5] 0x711a0 b'aaonknzigv'
+[6] 0x711f0 b'ackaetklmwlrtduoa'
+[7] 0x71920 b'acvniijtkaknor'
+[8] 0x70ac0 b'apgpekmogt'
+[9] 0x71100 b'aptlvpldzivquqbf'
+[10] 0x71a10 b'avaidocuxi'
+[11] 0x71240 b'cbfywqgyulf'
+[12] 0x71150 b'cfdizjegcnmxs'
+[13] 0x70880 b'coeteigzfuc'
+[14] 0x70b10 b'dbagzprywkfb'
+[15] 0x70a20 b'dfqtyecxngqraqvye'
+[16] 0x71c40 b'djorkrurzy'
+[17] 0x70a70 b'dvgjfkushwsuve'
+[18] 0x710b0 b'eaopbicrj'
+[19] 0x71470 b'edpilmlzgfhyysbs'
+[20] 0x71c90 b'eedpdyvocxi'
+[21] 0x71e70 b'etvrnljhcqymupvhl'
+[22] 0x71d80 b'faxbnfjxg'
+[23] 0x71880 b'fhunnlhc'
+[24] 0x71330 b'fjnimcloynkmjjy'
+[25] 0x70e30 b'fumanxsnjtrnwfj'
+[26] 0x71b50 b'fxsvobdwyznbnmjct'
+[27] 0x71ba0 b'gqxakgezigemvrgf'
+[28] 0x71e20 b'gzfnaqdg'
+[29] 0x71ce0 b'hmgqovtzzzl'
+[30] 0x71290 b'hnurnliydjjmnyh'
+[31] 0x70d90 b'iaigydp'
+[32] 0x70ed0 b'jlrholdepetiyvxo'
+[33] 0x713d0 b'jylglviwkqkodjo'
+[34] 0x70e80 b'klrqkcjqsitcuzvjb'
+[35] 0x70ca0 b'kofxoyjqg'
+[36] 0x70d40 b'kztylrialaa'
+[37] 0x71ec0 b'ligkmkngowxx'
+[38] 0x71d30 b'lpkmafjzrgew'
+[39] 0x71970 b'meahihot'
+[40] 0x71740 b'mlkifqrznkomsm'
+[41] 0x70b60 b'mmgcsfkmia'
+[42] 0x71420 b'mobyosgqoxbvtbffp'
+[43] 0x70bb0 b'molnmgkiicfzlho'
+[44] 0x70de0 b'ndllpsrv'
+[45] 0x70f20 b'obemfzvn'
+[46] 0x70cf0 b'okjdbgbxmpd'
+[47] 0x71560 b'olbqtgmb'
+[48] 0x71bf0 b'pdphxsgvzhdg'
+[49] 0x71dd0 b'pjodieuqs'
+[50] 0x709d0 b'qabymosusnsg'
+[51] 0x71830 b'qnkfujxp'
+[52] 0x71a60 b'qrperjhufxfpwvkj'
+[53] 0x70c50 b'qtmzzzuet'
+[54] 0x71ab0 b'ripilrdjnhjlnqqch'
+[55] 0x70fc0 b'rumgbnymnmd'
+[56] 0x715b0 b'rxqnvrug'
+[57] 0x71060 b'sbsfwbiszn'
+[58] 0x70c00 b'sikkugaletpiyqg'
+[59] 0x71790 b'tpvekefbmcfw'
+[60] 0x70f70 b'ulmrqtb'
+[61] 0x70960 b'uonhuomh'
+[62] 0x71650 b'uoywpmd'
+[63] 0x71510 b'uuuhjymyx'
+[64] 0x708f0 b'uvsoc'
+[65] 0x71600 b'vklzzij'
+[66] 0x718d0 b'wljirljsdxyfwltt'
+[67] 0x714c0 b'wtbpxqbtqbdwxae'
+[68] 0x716a0 b'xgjmjyo'
+[69] 0x719c0 b'xompyjczfrgxkoeq'
+[70] 0x71380 b'xydleeryworjfpmr'
+[71] 0x712e0 b'xzobrtqu'
+[72] 0x71b00 b'ypfznbdctnp'
+[73] 0x716f0 b'yxhjvyfup'
+[74] 0x717e0 b'zttfecmtrasjrk'
+[75] 0x71010 b'ztuzuaeexqbayiieq'
+
