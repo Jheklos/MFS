@@ -1,0 +1,29 @@
+##########################################################################################
+[0] File: /mnt/1C00FDE800FDC932/Amostra/SmokeLoader/SmokeLoader_bruto/c61412dacc526624ec3171c1d7b98d5deee2861e43c282ba1af2db7aab8028ce.exe
+##########################################################################################
+
+Meta-data
+==========================================================================================
+Size		: 359582 bytes
+Type		: PE32 executable for MS Windows 4.00 (GUI), Intel i386
+Architecture	: 32 Bits binary
+MD5		: b96c06a63c31eee1841f61b7e3d5ef63
+SHA1		: 9f5af8fadf95c1363f147a4b25fff5b663fa5a84
+SHA256		: c61412dacc526624ec3171c1d7b98d5deee2861e43c282ba1af2db7aab8028ce
+Date		: 0x0        [Thu Jan  1 00:00:00 1970 UTC] [SUSPICIOUS]
+CRC:	(Claimed) : 0x0, (Actual): 0x5d765 [SUSPICIOUS]
+Language	: LANG_ENGLISH, SUBLANG_ENGLISH_US
+Entry Point	: 0x3e8101 kkrunchy 0/1 [SUSPICIOUS]
+
+Sections
+==========================================================================================
+Name       VirtAddr     VirtSize     RawSize    MD5                              Entropy
+------------------------------------------------------------------------------------------
+kkrunchy     0x1000       0x5fd0c7     0xd000     cd964ce16cef95e0d8cef78e0a5ab1eb 6.731048    
+
+Imports
+==========================================================================================
+[1] b'KERNEL32.DLL'
+	0x3edf74 b'LoadLibraryA'
+	0x3edf78 b'GetProcAddress'
+
