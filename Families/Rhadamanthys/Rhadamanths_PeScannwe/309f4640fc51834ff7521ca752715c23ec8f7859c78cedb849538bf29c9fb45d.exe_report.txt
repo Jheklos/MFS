@@ -1,0 +1,47 @@
+##########################################################################################
+[0] File: /mnt/1C00FDE800FDC932/Amostra/Rhadamanthys/Rhadamanthys_bruto/309f4640fc51834ff7521ca752715c23ec8f7859c78cedb849538bf29c9fb45d.exe
+##########################################################################################
+
+Meta-data
+==========================================================================================
+Size		: 7917523 bytes
+Type		: PE32 executable for MS Windows 6.00 (GUI), Intel i386, 11 sections
+Architecture	: 32 Bits binary
+MD5		: 63a91428d48ffcbc3aea18385a50007c
+SHA1		: 060422457c194dafa447c5b92e96ad6d46dca50e
+SHA256		: 309f4640fc51834ff7521ca752715c23ec8f7859c78cedb849538bf29c9fb45d
+Date		: 0x63E8E320 [Sun Feb 12 13:01:20 2023 UTC]
+CRC:	(Claimed) : 0x79879c, (Actual): 0x79a16f [SUSPICIOUS]
+Language	: LANG_ENGLISH, SUBLANG_ENGLISH_US
+Entry Point	: 0xd96a09 hjI_1V]6 8/11 [SUSPICIOUS]
+
+Sections
+==========================================================================================
+Name       VirtAddr     VirtSize     RawSize    MD5                              Entropy
+------------------------------------------------------------------------------------------
+ijO(+yQc     0x1000       0x3fa10      0x0        d41d8cd98f00b204e9800998ecf8427e 0.000000     [SUSPICIOUS]
+u762sA^Z     0x41000      0xfeac       0x0        d41d8cd98f00b204e9800998ecf8427e 0.000000     [SUSPICIOUS]
+fY(\[L'w     0x51000      0x2400       0x0        d41d8cd98f00b204e9800998ecf8427e 0.000000     [SUSPICIOUS]
+"B:DUX^L     0x54000      0x8          0x0        d41d8cd98f00b204e9800998ecf8427e 0.000000     [SUSPICIOUS]
++d$^Kcy`     0x55000      0x45100      0x0        d41d8cd98f00b204e9800998ecf8427e 0.000000     [SUSPICIOUS]
+zf&7>,)4     0x9b000      0xf8         0x0        d41d8cd98f00b204e9800998ecf8427e 0.000000     [SUSPICIOUS]
+tNEyAW0`     0x9c000      0x31a848     0x0        d41d8cd98f00b204e9800998ecf8427e 0.000000     [SUSPICIOUS]
+O1A4"EiT     0x3b7000     0x2d8        0x400      407598236b61b6e2dd5f666f26fcdfb5 0.254694     [SUSPICIOUS]
+hjI_1V]6     0x3b8000     0x72ed50     0x72ee00   2c86eda44e324de01d2a45c080488286 7.949841     [SUSPICIOUS]
+MNT,I3/t     0xae7000     0x6fc        0x800      715ada8f59d35980adfcaed1555aa8dc 3.872067    
+C>;CUv::     0xae8000     0x5b7f5      0x5b800    13308ed945b8880365f5b42338c5ab22 4.323620    
+
+Imports
+==========================================================================================
+[1] b'KERNEL32.dll'
+	0x7b7000 b'CloseHandle'
+[2] b'ole32.dll'
+	0x7b7008 b'CoInitialize'
+[3] b'KERNEL32.dll'
+	0x7b7010 b'HeapAlloc'
+	0x7b7014 b'HeapFree'
+	0x7b7018 b'ExitProcess'
+	0x7b701c b'LoadLibraryA'
+	0x7b7020 b'GetModuleHandleA'
+	0x7b7024 b'GetProcAddress'
+
