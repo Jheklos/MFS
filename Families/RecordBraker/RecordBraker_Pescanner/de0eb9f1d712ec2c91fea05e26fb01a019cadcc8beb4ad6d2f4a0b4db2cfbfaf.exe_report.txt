@@ -1,0 +1,163 @@
+##########################################################################################
+[0] File: /mnt/1C00FDE800FDC932/Amostra/RecordBraker/RecordBraker_bruto/de0eb9f1d712ec2c91fea05e26fb01a019cadcc8beb4ad6d2f4a0b4db2cfbfaf.exe
+##########################################################################################
+
+Meta-data
+==========================================================================================
+Size		: 7296304 bytes
+Type		: PE32 executable for MS Windows 6.00 (GUI), Intel i386, 8 sections
+Architecture	: 32 Bits binary
+MD5		: 7f9a14f5eb35f5edd11624abfafba8f0
+SHA1		: ed586dd2973f3126ff07950dacbd484643de06f7
+SHA256		: de0eb9f1d712ec2c91fea05e26fb01a019cadcc8beb4ad6d2f4a0b4db2cfbfaf
+Date		: 0x63512B49 [Thu Oct 20 11:04:41 2022 UTC]
+CRC:	(Claimed) : 0x6f4c52, (Actual): 0x6fc900 [SUSPICIOUS]
+Language	: LANG_ENGLISH, SUBLANG_ENGLISH_US
+Entry Point	: 0xa6d766 ;<"w?d"n 6/8 [SUSPICIOUS]
+
+Sections
+==========================================================================================
+Name       VirtAddr     VirtSize     RawSize    MD5                              Entropy
+------------------------------------------------------------------------------------------
+U\$EB((;     0x1000       0xb40b       0xb600     266b5e94db5eeb87dd19423fa77c289d 5.986924    
+bU(*e=XZ     0xd000       0x28a2       0x2a00     b76b01af9258239576181c40610a0162 5.695514    
+zGWAfERH     0x10000      0x5b8        0x0        d41d8cd98f00b204e9800998ecf8427e 0.000000     [SUSPICIOUS]
+"ILKHF2C     0x11000      0x4          0x200      3f3f0e182f6d9d6a7931b8296086c290 0.040781     [SUSPICIOUS]
+tGZo+Wk?     0x12000      0x3d2a0e     0x3d2c00   9d6fd142e5c4ef379b740bd0c2768fa2 7.890018     [SUSPICIOUS]
+zw5>T%!I     0x3e5000     0x390        0x400      d49b8f3d3282c5a2630ac62aa0a48e72 3.405754    
+;<"w?d"n     0x3e6000     0x2ed4b0     0x2ed600   3ec5e5d45ccfe38f566505544eaef019 7.862712     [SUSPICIOUS]
+Rpo`#PB#     0x6d4000     0x1de64      0x1e000    d00bce47ec80b5f7b2b0008347c25c3b 6.875657    
+
+Suspicious Imports
+==========================================================================================
+b'WriteProcessMemory'
+
+Imports
+==========================================================================================
+[1] b'KERNEL32.dll'
+	0x7e5000 b'GetProcAddress'
+	0x7e5004 b'CreateFileW'
+	0x7e5008 b'lstrlenA'
+	0x7e500c b'LocalAlloc'
+	0x7e5010 b'LoadLibraryA'
+[2] b'ole32.dll'
+	0x7e5018 b'CoInitialize'
+[3] b'KERNEL32.dll'
+	0x7e5020 b'GetSystemTimeAsFileTime'
+	0x7e5024 b'CreateEventA'
+	0x7e5028 b'GetModuleFileNameW'
+	0x7e502c b'GetModuleHandleA'
+	0x7e5030 b'TerminateProcess'
+	0x7e5034 b'GetCurrentProcess'
+	0x7e5038 b'CreateToolhelp32Snapshot'
+	0x7e503c b'Thread32First'
+	0x7e5040 b'GetCurrentProcessId'
+	0x7e5044 b'GetCurrentThreadId'
+	0x7e5048 b'OpenThread'
+	0x7e504c b'Thread32Next'
+	0x7e5050 b'CloseHandle'
+	0x7e5054 b'SuspendThread'
+	0x7e5058 b'ResumeThread'
+	0x7e505c b'WriteProcessMemory'
+	0x7e5060 b'GetSystemInfo'
+	0x7e5064 b'VirtualAlloc'
+	0x7e5068 b'VirtualProtect'
+	0x7e506c b'VirtualFree'
+	0x7e5070 b'GetProcessAffinityMask'
+	0x7e5074 b'SetProcessAffinityMask'
+	0x7e5078 b'GetCurrentThread'
+	0x7e507c b'SetThreadAffinityMask'
+	0x7e5080 b'Sleep'
+	0x7e5084 b'LoadLibraryA'
+	0x7e5088 b'FreeLibrary'
+	0x7e508c b'GetTickCount'
+	0x7e5090 b'SystemTimeToFileTime'
+	0x7e5094 b'FileTimeToSystemTime'
+	0x7e5098 b'GlobalFree'
+	0x7e509c b'LocalAlloc'
+	0x7e50a0 b'LocalFree'
+	0x7e50a4 b'GetProcAddress'
+	0x7e50a8 b'ExitProcess'
+	0x7e50ac b'EnterCriticalSection'
+	0x7e50b0 b'LeaveCriticalSection'
+	0x7e50b4 b'InitializeCriticalSection'
+	0x7e50b8 b'DeleteCriticalSection'
+	0x7e50bc b'MultiByteToWideChar'
+	0x7e50c0 b'GetModuleHandleW'
+	0x7e50c4 b'LoadResource'
+	0x7e50c8 b'FindResourceExW'
+	0x7e50cc b'FindResourceExA'
+	0x7e50d0 b'WideCharToMultiByte'
+	0x7e50d4 b'GetThreadLocale'
+	0x7e50d8 b'GetUserDefaultLCID'
+	0x7e50dc b'GetSystemDefaultLCID'
+	0x7e50e0 b'EnumResourceNamesA'
+	0x7e50e4 b'EnumResourceNamesW'
+	0x7e50e8 b'EnumResourceLanguagesA'
+	0x7e50ec b'EnumResourceLanguagesW'
+	0x7e50f0 b'EnumResourceTypesA'
+	0x7e50f4 b'EnumResourceTypesW'
+	0x7e50f8 b'CreateFileW'
+	0x7e50fc b'LoadLibraryW'
+	0x7e5100 b'GetLastError'
+	0x7e5104 b'FlushFileBuffers'
+	0x7e5108 b'VirtualQuery'
+	0x7e510c b'GetCommandLineA'
+	0x7e5110 b'HeapFree'
+	0x7e5114 b'GetCPInfo'
+	0x7e5118 b'InterlockedIncrement'
+	0x7e511c b'InterlockedDecrement'
+	0x7e5120 b'GetACP'
+	0x7e5124 b'GetOEMCP'
+	0x7e5128 b'IsValidCodePage'
+	0x7e512c b'TlsGetValue'
+	0x7e5130 b'TlsAlloc'
+	0x7e5134 b'TlsSetValue'
+	0x7e5138 b'TlsFree'
+	0x7e513c b'SetLastError'
+	0x7e5140 b'UnhandledExceptionFilter'
+	0x7e5144 b'SetUnhandledExceptionFilter'
+	0x7e5148 b'IsDebuggerPresent'
+	0x7e514c b'HeapAlloc'
+	0x7e5150 b'RaiseException'
+	0x7e5154 b'LCMapStringA'
+	0x7e5158 b'LCMapStringW'
+	0x7e515c b'SetHandleCount'
+	0x7e5160 b'GetStdHandle'
+	0x7e5164 b'GetFileType'
+	0x7e5168 b'GetStartupInfoA'
+	0x7e516c b'GetModuleFileNameA'
+	0x7e5170 b'FreeEnvironmentStringsA'
+	0x7e5174 b'GetEnvironmentStrings'
+	0x7e5178 b'FreeEnvironmentStringsW'
+	0x7e517c b'GetEnvironmentStringsW'
+	0x7e5180 b'HeapCreate'
+	0x7e5184 b'HeapDestroy'
+	0x7e5188 b'QueryPerformanceCounter'
+	0x7e518c b'HeapReAlloc'
+	0x7e5190 b'GetStringTypeA'
+	0x7e5194 b'GetStringTypeW'
+	0x7e5198 b'GetLocaleInfoA'
+	0x7e519c b'HeapSize'
+	0x7e51a0 b'WriteFile'
+	0x7e51a4 b'RtlUnwind'
+	0x7e51a8 b'SetFilePointer'
+	0x7e51ac b'GetConsoleCP'
+	0x7e51b0 b'GetConsoleMode'
+	0x7e51b4 b'InitializeCriticalSectionAndSpinCount'
+	0x7e51b8 b'SetStdHandle'
+	0x7e51bc b'WriteConsoleA'
+	0x7e51c0 b'GetConsoleOutputCP'
+	0x7e51c4 b'WriteConsoleW'
+	0x7e51c8 b'CreateFileA'
+[4] b'USER32.dll'
+	0x7e51d0 b'CharUpperBuffW'
+[5] b'KERNEL32.dll'
+	0x7e51d8 b'LocalAlloc'
+	0x7e51dc b'LocalFree'
+	0x7e51e0 b'GetModuleFileNameW'
+	0x7e51e4 b'ExitProcess'
+	0x7e51e8 b'LoadLibraryA'
+	0x7e51ec b'GetModuleHandleA'
+	0x7e51f0 b'GetProcAddress'
+
