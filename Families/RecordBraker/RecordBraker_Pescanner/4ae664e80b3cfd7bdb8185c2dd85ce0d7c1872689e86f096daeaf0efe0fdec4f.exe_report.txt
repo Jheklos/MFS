@@ -1,0 +1,135 @@
+##########################################################################################
+[0] File: /mnt/1C00FDE800FDC932/Amostra/RecordBraker/RecordBraker_bruto/4ae664e80b3cfd7bdb8185c2dd85ce0d7c1872689e86f096daeaf0efe0fdec4f.exe
+##########################################################################################
+
+Meta-data
+==========================================================================================
+Size		: 246272 bytes
+Type		: PE32 executable for MS Windows 5.00 (GUI), Intel i386, 3 sections
+Architecture	: 32 Bits binary
+MD5		: 3dc0a9ecdbbe080f239ab69e1011eb9a
+SHA1		: 657c26e974792a449f8a1e6113466600955740f6
+SHA256		: 4ae664e80b3cfd7bdb8185c2dd85ce0d7c1872689e86f096daeaf0efe0fdec4f
+Date		: 0x61104561 [Sun Aug  8 20:58:09 2021 UTC]
+CRC:	(Claimed) : 0x408a0, (Actual): 0x457de [SUSPICIOUS]
+Language	: LANG_SERBIAN, SUBLANG_SERBIAN_LATIN
+Entry Point	: 0x405d8a b'.idata 0/3 [SUSPICIOUS]
+
+Sections
+==========================================================================================
+Name       VirtAddr     VirtSize     RawSize    MD5                              Entropy
+------------------------------------------------------------------------------------------
+b'.idata     0x1000       0x14538      0x14600    e50f36b530705ba663736121839f3f25 6.325898    
+b'.idata     0x16000      0x2cf04      0x11c00    29fb45158b955dc3ea9cbd5706c153a5 7.657526     [SUSPICIOUS]
+b'.idata     0x43000      0x15c00      0x15c00    45d102837e6bebdbbcb8dd861079e2b0 5.043775    
+
+Imports
+==========================================================================================
+[1] b'KERNEL32.dll'
+	0x401010 b'CreateDirectoryExW'
+	0x401014 b'ReadConsoleInputA'
+	0x401018 b'GetTempPathW'
+	0x40101c b'GetSystemDirectoryW'
+	0x401020 b'RemoveDirectoryA'
+	0x401024 b'OutputDebugStringW'
+	0x401028 b'GetProcAddress'
+	0x40102c b'LocalAlloc'
+	0x401030 b'MoveFileWithProgressW'
+	0x401034 b'SearchPathW'
+	0x401038 b'VerifyVersionInfoW'
+	0x40103c b'CopyFileExW'
+	0x401040 b'GetThreadLocale'
+	0x401044 b'FindNextFileA'
+	0x401048 b'FindFirstVolumeW'
+	0x40104c b'LocalShrink'
+	0x401050 b'LocalFlags'
+	0x401054 b'ExitThread'
+	0x401058 b'GetModuleHandleW'
+	0x40105c b'SetFileTime'
+	0x401060 b'InterlockedDecrement'
+	0x401064 b'RemoveVectoredExceptionHandler'
+	0x401068 b'lstrcatA'
+	0x40106c b'CreateActCtxW'
+	0x401070 b'UpdateResourceW'
+	0x401074 b'CopyFileW'
+	0x401078 b'FindFirstFileW'
+	0x40107c b'FreeEnvironmentStringsW'
+	0x401080 b'EnumResourceLanguagesA'
+	0x401084 b'InterlockedIncrement'
+	0x401088 b'SetFileApisToOEM'
+	0x40108c b'GetModuleHandleA'
+	0x401090 b'GetTickCount'
+	0x401094 b'SetLastError'
+	0x401098 b'GetPrivateProfileStructA'
+	0x40109c b'AddConsoleAliasA'
+	0x4010a0 b'GetConsoleAliasW'
+	0x4010a4 b'FindResourceA'
+	0x4010a8 b'LoadLibraryA'
+	0x4010ac b'GetLastError'
+	0x4010b0 b'HeapReAlloc'
+	0x4010b4 b'HeapAlloc'
+	0x4010b8 b'DeleteFileA'
+	0x4010bc b'GetStartupInfoW'
+	0x4010c0 b'TerminateProcess'
+	0x4010c4 b'GetCurrentProcess'
+	0x4010c8 b'UnhandledExceptionFilter'
+	0x4010cc b'SetUnhandledExceptionFilter'
+	0x4010d0 b'IsDebuggerPresent'
+	0x4010d4 b'HeapFree'
+	0x4010d8 b'DeleteCriticalSection'
+	0x4010dc b'LeaveCriticalSection'
+	0x4010e0 b'EnterCriticalSection'
+	0x4010e4 b'HeapCreate'
+	0x4010e8 b'VirtualFree'
+	0x4010ec b'VirtualAlloc'
+	0x4010f0 b'Sleep'
+	0x4010f4 b'ExitProcess'
+	0x4010f8 b'WriteFile'
+	0x4010fc b'GetStdHandle'
+	0x401100 b'GetModuleFileNameA'
+	0x401104 b'GetModuleFileNameW'
+	0x401108 b'GetEnvironmentStringsW'
+	0x40110c b'GetCommandLineW'
+	0x401110 b'SetHandleCount'
+	0x401114 b'GetFileType'
+	0x401118 b'GetStartupInfoA'
+	0x40111c b'TlsGetValue'
+	0x401120 b'TlsAlloc'
+	0x401124 b'TlsSetValue'
+	0x401128 b'TlsFree'
+	0x40112c b'GetCurrentThreadId'
+	0x401130 b'QueryPerformanceCounter'
+	0x401134 b'GetCurrentProcessId'
+	0x401138 b'GetSystemTimeAsFileTime'
+	0x40113c b'GetCPInfo'
+	0x401140 b'GetACP'
+	0x401144 b'GetOEMCP'
+	0x401148 b'IsValidCodePage'
+	0x40114c b'RaiseException'
+	0x401150 b'InitializeCriticalSectionAndSpinCount'
+	0x401154 b'RtlUnwind'
+	0x401158 b'SetFilePointer'
+	0x40115c b'WideCharToMultiByte'
+	0x401160 b'GetConsoleCP'
+	0x401164 b'GetConsoleMode'
+	0x401168 b'LCMapStringA'
+	0x40116c b'MultiByteToWideChar'
+	0x401170 b'LCMapStringW'
+	0x401174 b'GetStringTypeA'
+	0x401178 b'GetStringTypeW'
+	0x40117c b'GetLocaleInfoA'
+	0x401180 b'SetStdHandle'
+	0x401184 b'WriteConsoleA'
+	0x401188 b'GetConsoleOutputCP'
+	0x40118c b'WriteConsoleW'
+	0x401190 b'HeapSize'
+	0x401194 b'CreateFileA'
+	0x401198 b'CloseHandle'
+	0x40119c b'FlushFileBuffers'
+[2] b'USER32.dll'
+	0x4011a4 b'CharUpperBuffW'
+[3] b'GDI32.dll'
+	0x401008 b'SetBrushOrgEx'
+[4] b'ADVAPI32.dll'
+	0x401000 b'AccessCheckByType'
+
