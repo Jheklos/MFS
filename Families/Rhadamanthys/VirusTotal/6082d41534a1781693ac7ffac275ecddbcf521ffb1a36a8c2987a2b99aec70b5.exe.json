@@ -1,0 +1,447 @@
+{
+    "md5": "aca7c628adb357f32f9d18f7a1ebefe0",
+    "permalink": "https://www.virustotal.com/gui/file/6082d41534a1781693ac7ffac275ecddbcf521ffb1a36a8c2987a2b99aec70b5/detection/f-6082d41534a1781693ac7ffac275ecddbcf521ffb1a36a8c2987a2b99aec70b5-1755731021",
+    "positives": 51,
+    "resource": "6082d41534a1781693ac7ffac275ecddbcf521ffb1a36a8c2987a2b99aec70b5",
+    "response_code": 1,
+    "scan_date": "2025-08-20 23:03:41",
+    "scan_id": "6082d41534a1781693ac7ffac275ecddbcf521ffb1a36a8c2987a2b99aec70b5-1755731021",
+    "scans": {
+        "ALYac": {
+            "detected": true,
+            "result": "Gen:Variant.Tedy.730551",
+            "update": "20250820",
+            "version": "2.0.0.10"
+        },
+        "APEX": {
+            "detected": false,
+            "result": null,
+            "update": "20250819",
+            "version": "6.688"
+        },
+        "AVG": {
+            "detected": true,
+            "result": "Win64:MalwareX-gen [Rat]",
+            "update": "20250820",
+            "version": "23.9.8494.0"
+        },
+        "Acronis": {
+            "detected": false,
+            "result": null,
+            "update": "20240328",
+            "version": "1.2.0.121"
+        },
+        "AhnLab-V3": {
+            "detected": true,
+            "result": "Trojan/Win.Generic.R694545",
+            "update": "20250820",
+            "version": "3.28.0.10568"
+        },
+        "Alibaba": {
+            "detected": false,
+            "result": null,
+            "update": "20190527",
+            "version": "0.3.0.5"
+        },
+        "Antiy-AVL": {
+            "detected": false,
+            "result": null,
+            "update": "20250820",
+            "version": "3.0"
+        },
+        "Arcabit": {
+            "detected": true,
+            "result": "Trojan.Tedy.DB25B7",
+            "update": "20250820",
+            "version": "2025.0.0.23"
+        },
+        "Avast": {
+            "detected": true,
+            "result": "Win64:MalwareX-gen [Rat]",
+            "update": "20250820",
+            "version": "23.9.8494.0"
+        },
+        "Avira": {
+            "detected": true,
+            "result": "TR/AD.DarkCloudSteal.ofeio",
+            "update": "20250820",
+            "version": "8.3.3.22"
+        },
+        "Baidu": {
+            "detected": false,
+            "result": null,
+            "update": "20190318",
+            "version": "1.0.0.2"
+        },
+        "BitDefender": {
+            "detected": true,
+            "result": "Gen:Variant.Tedy.730551",
+            "update": "20250820",
+            "version": "7.2"
+        },
+        "Bkav": {
+            "detected": true,
+            "result": "W32.Common.A0E2A624",
+            "update": "20250820",
+            "version": "2.0.0.1"
+        },
+        "CAT-QuickHeal": {
+            "detected": false,
+            "result": null,
+            "update": "20250819",
+            "version": "22.00"
+        },
+        "CMC": {
+            "detected": false,
+            "result": null,
+            "update": "20250820",
+            "version": "2.4.2022.1"
+        },
+        "CTX": {
+            "detected": true,
+            "result": "dll.trojan.injectornett",
+            "update": "20250820",
+            "version": "2024.8.29.1"
+        },
+        "ClamAV": {
+            "detected": true,
+            "result": "Win.Malware.Tedy-10056556-0",
+            "update": "20250820",
+            "version": "1.4.3.0"
+        },
+        "CrowdStrike": {
+            "detected": true,
+            "result": "win/malicious_confidence_100% (W)",
+            "update": "20231026",
+            "version": "1.0"
+        },
+        "Cylance": {
+            "detected": true,
+            "result": "Unsafe",
+            "update": "20250813",
+            "version": "3.0.0.0"
+        },
+        "Cynet": {
+            "detected": true,
+            "result": "Malicious (score: 100)",
+            "update": "20250820",
+            "version": "4.0.3.4"
+        },
+        "DeepInstinct": {
+            "detected": true,
+            "result": "MALICIOUS",
+            "update": "20250820",
+            "version": "5.0.0.8"
+        },
+        "DrWeb": {
+            "detected": false,
+            "result": null,
+            "update": "20250820",
+            "version": "7.0.69.6040"
+        },
+        "ESET-NOD32": {
+            "detected": true,
+            "result": "a variant of Win64/Kryptik.EXX",
+            "update": "20250820",
+            "version": "31727"
+        },
+        "Elastic": {
+            "detected": true,
+            "result": "malicious (high confidence)",
+            "update": "20250814",
+            "version": "4.0.220"
+        },
+        "Emsisoft": {
+            "detected": true,
+            "result": "Gen:Variant.Tedy.730551 (B)",
+            "update": "20250820",
+            "version": "2024.8.0.61147"
+        },
+        "F-Secure": {
+            "detected": true,
+            "result": "Trojan.TR/AD.DarkCloudSteal.ofeio",
+            "update": "20250820",
+            "version": "18.10.1547.307"
+        },
+        "Fortinet": {
+            "detected": true,
+            "result": "W64/Agent.MGFG!tr",
+            "update": "20250820",
+            "version": "7.0.30.0"
+        },
+        "GData": {
+            "detected": true,
+            "result": "Gen:Variant.Tedy.730551",
+            "update": "20250820",
+            "version": "GD:27.41496AVA:64.29687"
+        },
+        "Google": {
+            "detected": true,
+            "result": "Detected",
+            "update": "20250820",
+            "version": "1755727273"
+        },
+        "Gridinsoft": {
+            "detected": true,
+            "result": "Trojan.Heur!.02292022",
+            "update": "20250820",
+            "version": "1.0.223.174"
+        },
+        "Ikarus": {
+            "detected": true,
+            "result": "Trojan.Win64.Agent",
+            "update": "20250820",
+            "version": "6.4.16.0"
+        },
+        "Jiangmin": {
+            "detected": true,
+            "result": "Trojan.AVI.en",
+            "update": "20250819",
+            "version": "16.0.100"
+        },
+        "K7AntiVirus": {
+            "detected": true,
+            "result": "Trojan ( 005c8e321 )",
+            "update": "20250820",
+            "version": "14.2.56765"
+        },
+        "K7GW": {
+            "detected": true,
+            "result": "Trojan ( 005c8e321 )",
+            "update": "20250820",
+            "version": "14.2.56765"
+        },
+        "Kaspersky": {
+            "detected": true,
+            "result": "Trojan.Win32.InjectorNetT.ix",
+            "update": "20250820",
+            "version": "22.0.1.28"
+        },
+        "Kingsoft": {
+            "detected": true,
+            "result": "Win32.Trojan.InjectorNetT.ix",
+            "update": "20250820",
+            "version": "None"
+        },
+        "Lionic": {
+            "detected": true,
+            "result": "Trojan.Win32.InjectorNetT.1C!c",
+            "update": "20250820",
+            "version": "8.16"
+        },
+        "Malwarebytes": {
+            "detected": true,
+            "result": "Malware.AI.4111675291",
+            "update": "20250820",
+            "version": "3.1.0.150"
+        },
+        "MaxSecure": {
+            "detected": true,
+            "result": "Trojan.Malware.1670890.susgen",
+            "update": "20250820",
+            "version": "1.0.0.1"
+        },
+        "McAfeeD": {
+            "detected": true,
+            "result": "ti!6082D41534A1",
+            "update": "20250820",
+            "version": "1.2.0.10275"
+        },
+        "MicroWorld-eScan": {
+            "detected": true,
+            "result": "Gen:Variant.Tedy.730551",
+            "update": "20250820",
+            "version": "14.0.409.0"
+        },
+        "Microsoft": {
+            "detected": true,
+            "result": "Trojan:Win32/Egairtigado!rfn",
+            "update": "20250820",
+            "version": "1.1.25070.4"
+        },
+        "NANO-Antivirus": {
+            "detected": false,
+            "result": null,
+            "update": "20250820",
+            "version": "1.0.170.26895"
+        },
+        "Paloalto": {
+            "detected": true,
+            "result": "generic.ml",
+            "update": "20250820",
+            "version": "0.9.0.1003"
+        },
+        "Panda": {
+            "detected": true,
+            "result": "Trj/Chgt.AD",
+            "update": "20250820",
+            "version": "4.6.4.2"
+        },
+        "Rising": {
+            "detected": true,
+            "result": "Trojan.InjectorNetT!8.1BEA2 (CLOUD)",
+            "update": "20250820",
+            "version": "25.0.0.28"
+        },
+        "SUPERAntiSpyware": {
+            "detected": false,
+            "result": null,
+            "update": "20250820",
+            "version": "5.6.0.1032"
+        },
+        "Sangfor": {
+            "detected": false,
+            "result": null,
+            "update": "20250818",
+            "version": "2.22.3.0"
+        },
+        "SentinelOne": {
+            "detected": false,
+            "result": null,
+            "update": "20250114",
+            "version": "25.1.1.1"
+        },
+        "Skyhigh": {
+            "detected": true,
+            "result": "BehavesLike.Win64.CoinMiner.vc",
+            "update": "20250820",
+            "version": "v2021.2.0+4045"
+        },
+        "Sophos": {
+            "detected": true,
+            "result": "Mal/Generic-S",
+            "update": "20250820",
+            "version": "3.1.2.0"
+        },
+        "Symantec": {
+            "detected": true,
+            "result": "Trojan.Gen.MBT",
+            "update": "20250820",
+            "version": "1.22.0.0"
+        },
+        "TACHYON": {
+            "detected": false,
+            "result": null,
+            "update": "20250820",
+            "version": "2025-08-20.02"
+        },
+        "Tencent": {
+            "detected": true,
+            "result": "Malware.Win32.Gencirc.10c31f7c",
+            "update": "20250820",
+            "version": "1.0.0.1"
+        },
+        "Trapmine": {
+            "detected": false,
+            "result": null,
+            "update": "20250819",
+            "version": "4.0.4.0"
+        },
+        "TrellixENS": {
+            "detected": true,
+            "result": "Artemis!ACA7C628ADB3",
+            "update": "20250820",
+            "version": "6.0.6.653"
+        },
+        "TrendMicro": {
+            "detected": true,
+            "result": "TROJ_GEN.R002C0DG725",
+            "update": "20250820",
+            "version": "24.550.0.1002"
+        },
+        "TrendMicro-HouseCall": {
+            "detected": true,
+            "result": "TROJ_GEN.R002C0DG725",
+            "update": "20250820",
+            "version": "24.550.0.1002"
+        },
+        "VBA32": {
+            "detected": true,
+            "result": "Trojan.InjectorNetT",
+            "update": "20250819",
+            "version": "5.4.0"
+        },
+        "VIPRE": {
+            "detected": true,
+            "result": "Gen:Variant.Tedy.730551",
+            "update": "20250820",
+            "version": "6.0.0.35"
+        },
+        "Varist": {
+            "detected": true,
+            "result": "W64/Agent.KGQ.gen!Eldorado",
+            "update": "20250820",
+            "version": "6.6.1.3"
+        },
+        "ViRobot": {
+            "detected": true,
+            "result": "Trojan.Win.Z.Tedy.2892800",
+            "update": "20250820",
+            "version": "2014.3.20.0"
+        },
+        "VirIT": {
+            "detected": false,
+            "result": null,
+            "update": "20250820",
+            "version": "9.5.1022"
+        },
+        "Webroot": {
+            "detected": false,
+            "result": null,
+            "update": "20250227",
+            "version": "1.9.0.8"
+        },
+        "Xcitium": {
+            "detected": true,
+            "result": "Malware@#2ejjjghpgzl23",
+            "update": "20250820",
+            "version": "37974"
+        },
+        "Yandex": {
+            "detected": false,
+            "result": null,
+            "update": "20250820",
+            "version": "5.5.2.24"
+        },
+        "Zillya": {
+            "detected": false,
+            "result": null,
+            "update": "20250820",
+            "version": "2.0.0.5429"
+        },
+        "ZoneAlarm": {
+            "detected": false,
+            "result": null,
+            "update": "20250820",
+            "version": "6.19-108462955"
+        },
+        "Zoner": {
+            "detected": false,
+            "result": null,
+            "update": "20250820",
+            "version": "2.2.2.0"
+        },
+        "alibabacloud": {
+            "detected": true,
+            "result": "Trojan:Win/Egairtigado.Gen",
+            "update": "20250321",
+            "version": "2.2.0"
+        },
+        "huorong": {
+            "detected": true,
+            "result": "Trojan/Generic!8D5A3E2E0B19A35E",
+            "update": "20250820",
+            "version": "d95750d:d95750d:593730b:593730b"
+        },
+        "tehtris": {
+            "detected": false,
+            "result": null,
+            "update": "20250820",
+            "version": "v0.1.4"
+        }
+    },
+    "sha1": "e61d588eebfa05e7354391690e37f3eadb5dfded",
+    "sha256": "6082d41534a1781693ac7ffac275ecddbcf521ffb1a36a8c2987a2b99aec70b5",
+    "total": 72,
+    "verbose_msg": "Scan finished, information embedded"
+}
