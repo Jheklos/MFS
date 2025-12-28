@@ -1,0 +1,447 @@
+{
+    "md5": "e0b71b54617a5055b57c1d9f7e79ab5e",
+    "permalink": "https://www.virustotal.com/gui/file/8a7eadc7085b0a572fe4cfe17a02e828107d2f3dc0e1e2730a47fa1bed43e349/detection/f-8a7eadc7085b0a572fe4cfe17a02e828107d2f3dc0e1e2730a47fa1bed43e349-1760313671",
+    "positives": 56,
+    "resource": "8a7eadc7085b0a572fe4cfe17a02e828107d2f3dc0e1e2730a47fa1bed43e349",
+    "response_code": 1,
+    "scan_date": "2025-10-13 00:01:11",
+    "scan_id": "8a7eadc7085b0a572fe4cfe17a02e828107d2f3dc0e1e2730a47fa1bed43e349-1760313671",
+    "scans": {
+        "ALYac": {
+            "detected": false,
+            "result": null,
+            "update": "20251012",
+            "version": "2.0.0.10"
+        },
+        "APEX": {
+            "detected": true,
+            "result": "Malicious",
+            "update": "20251007",
+            "version": "6.704"
+        },
+        "AVG": {
+            "detected": true,
+            "result": "Win32:Evo-gen [Trj]",
+            "update": "20251012",
+            "version": "23.9.8494.0"
+        },
+        "Acronis": {
+            "detected": false,
+            "result": null,
+            "update": "20240328",
+            "version": "1.2.0.121"
+        },
+        "AhnLab-V3": {
+            "detected": true,
+            "result": "Trojan/Win.Generic.R562403",
+            "update": "20251012",
+            "version": "3.28.0.10568"
+        },
+        "Alibaba": {
+            "detected": true,
+            "result": "TrojanDownloader:Win32/Doubleback.3c4a1cf0",
+            "update": "20190527",
+            "version": "0.3.0.5"
+        },
+        "Antiy-AVL": {
+            "detected": true,
+            "result": "Trojan/Win32.Strab",
+            "update": "20251012",
+            "version": "3.0"
+        },
+        "Arcabit": {
+            "detected": true,
+            "result": "Trojan.Mint.Zitirez.ED3F0A",
+            "update": "20251012",
+            "version": "2025.0.0.23"
+        },
+        "Avast": {
+            "detected": true,
+            "result": "Win32:Evo-gen [Trj]",
+            "update": "20251012",
+            "version": "23.9.8494.0"
+        },
+        "Avira": {
+            "detected": true,
+            "result": "HEUR/AGEN.1364736",
+            "update": "20251012",
+            "version": "8.3.3.22"
+        },
+        "Baidu": {
+            "detected": false,
+            "result": null,
+            "update": "20190318",
+            "version": "1.0.0.2"
+        },
+        "BitDefender": {
+            "detected": true,
+            "result": "Gen:Heur.Mint.Zitirez.NvX@c0kBFQQiBd",
+            "update": "20251012",
+            "version": "7.2"
+        },
+        "Bkav": {
+            "detected": false,
+            "result": null,
+            "update": "20251012",
+            "version": "2.0.0.1"
+        },
+        "CAT-QuickHeal": {
+            "detected": true,
+            "result": "Trojan.GenericRI.S30116150",
+            "update": "20251012",
+            "version": "22.00"
+        },
+        "CMC": {
+            "detected": false,
+            "result": null,
+            "update": "20251006",
+            "version": "2.4.2022.1"
+        },
+        "CTX": {
+            "detected": true,
+            "result": "exe.trojan.strab",
+            "update": "20251013",
+            "version": "2024.8.29.1"
+        },
+        "ClamAV": {
+            "detected": false,
+            "result": null,
+            "update": "20251012",
+            "version": "1.4.3.0"
+        },
+        "CrowdStrike": {
+            "detected": true,
+            "result": "win/malicious_confidence_100% (W)",
+            "update": "20231026",
+            "version": "1.0"
+        },
+        "Cylance": {
+            "detected": true,
+            "result": "Unsafe",
+            "update": "20251009",
+            "version": "3.0.0.0"
+        },
+        "Cynet": {
+            "detected": true,
+            "result": "Malicious (score: 100)",
+            "update": "20251012",
+            "version": "4.0.3.4"
+        },
+        "DeepInstinct": {
+            "detected": true,
+            "result": "MALICIOUS",
+            "update": "20251012",
+            "version": "5.0.0.8"
+        },
+        "DrWeb": {
+            "detected": true,
+            "result": "Trojan.DownLoader48.3727",
+            "update": "20251012",
+            "version": "7.0.72.9030"
+        },
+        "ESET-NOD32": {
+            "detected": true,
+            "result": "Win32/TrojanDownloader.Agent.GOJ",
+            "update": "20251012",
+            "version": "32013"
+        },
+        "Elastic": {
+            "detected": true,
+            "result": "malicious (high confidence)",
+            "update": "20250929",
+            "version": "4.0.229"
+        },
+        "Emsisoft": {
+            "detected": true,
+            "result": "Gen:Heur.Mint.Zitirez.NvX@c0kBFQQiBd (B)",
+            "update": "20251012",
+            "version": "2024.8.0.61147"
+        },
+        "F-Secure": {
+            "detected": true,
+            "result": "Heuristic.HEUR/AGEN.1364736",
+            "update": "20251012",
+            "version": "18.10.1547.307"
+        },
+        "Fortinet": {
+            "detected": true,
+            "result": "W32/Agent.GOJ!tr.dldr",
+            "update": "20251012",
+            "version": "7.0.30.0"
+        },
+        "GData": {
+            "detected": true,
+            "result": "Gen:Heur.Mint.Zitirez.NvX@c0kBFQQiBd",
+            "update": "20251013",
+            "version": "GD:27.42128AVA:64.29968"
+        },
+        "Google": {
+            "detected": true,
+            "result": "Detected",
+            "update": "20251013",
+            "version": "1760308248"
+        },
+        "Gridinsoft": {
+            "detected": false,
+            "result": null,
+            "update": "20251012",
+            "version": "1.0.227.174"
+        },
+        "Ikarus": {
+            "detected": true,
+            "result": "Trojan-Ransom.Cerber",
+            "update": "20251012",
+            "version": "6.4.16.0"
+        },
+        "Jiangmin": {
+            "detected": false,
+            "result": null,
+            "update": "20251011",
+            "version": "16.0.100"
+        },
+        "K7AntiVirus": {
+            "detected": true,
+            "result": "Trojan-Downloader ( 0059b8c51 )",
+            "update": "20251012",
+            "version": "14.12.57311"
+        },
+        "K7GW": {
+            "detected": true,
+            "result": "Trojan-Downloader ( 0059b8c51 )",
+            "update": "20251012",
+            "version": "14.12.57311"
+        },
+        "Kaspersky": {
+            "detected": true,
+            "result": "HEUR:Trojan.Win32.Strab.gen",
+            "update": "20251012",
+            "version": "22.0.1.28"
+        },
+        "Kingsoft": {
+            "detected": true,
+            "result": "Win32.Troj.Undef.a",
+            "update": "20251012",
+            "version": "None"
+        },
+        "Lionic": {
+            "detected": true,
+            "result": "Trojan.Win32.Strab.4!c",
+            "update": "20251012",
+            "version": "8.16"
+        },
+        "Malwarebytes": {
+            "detected": true,
+            "result": "Malware.AI.3621730473",
+            "update": "20251012",
+            "version": "3.1.0.168"
+        },
+        "MaxSecure": {
+            "detected": true,
+            "result": "Trojan.Malware.124015119.susgen",
+            "update": "20251010",
+            "version": "1.0.0.1"
+        },
+        "McAfeeD": {
+            "detected": true,
+            "result": "ti!8A7EADC7085B",
+            "update": "20251013",
+            "version": "1.2.0.10275"
+        },
+        "MicroWorld-eScan": {
+            "detected": true,
+            "result": "Gen:Heur.Mint.Zitirez.NvX@c0kBFQQiBd",
+            "update": "20251012",
+            "version": "14.0.409.0"
+        },
+        "Microsoft": {
+            "detected": true,
+            "result": "Trojan:Win32/Doubleback!MTB",
+            "update": "20251012",
+            "version": "1.1.25090.3001"
+        },
+        "NANO-Antivirus": {
+            "detected": true,
+            "result": "Trojan.Win32.Strab.jvieit",
+            "update": "20251012",
+            "version": "1.0.170.26895"
+        },
+        "Paloalto": {
+            "detected": true,
+            "result": "generic.ml",
+            "update": "20251013",
+            "version": "0.9.0.1003"
+        },
+        "Panda": {
+            "detected": true,
+            "result": "Trj/Chgt.AD",
+            "update": "20251012",
+            "version": "4.6.4.2"
+        },
+        "Rising": {
+            "detected": true,
+            "result": "Trojan.Kryptik!1.E38B (CLASSIC)",
+            "update": "20251012",
+            "version": "25.0.0.28"
+        },
+        "SUPERAntiSpyware": {
+            "detected": false,
+            "result": null,
+            "update": "20251012",
+            "version": "5.6.0.1032"
+        },
+        "Sangfor": {
+            "detected": true,
+            "result": "Suspicious.Win32.Save.pkr",
+            "update": "20251010",
+            "version": "2.22.3.0"
+        },
+        "SentinelOne": {
+            "detected": true,
+            "result": "Static AI - Suspicious PE",
+            "update": "20250827",
+            "version": "7.3.0.8"
+        },
+        "Skyhigh": {
+            "detected": true,
+            "result": "Artemis!Trojan",
+            "update": "20251012",
+            "version": "v2021.2.0+4045"
+        },
+        "Sophos": {
+            "detected": true,
+            "result": "Mal/Generic-S",
+            "update": "20251012",
+            "version": "3.2.1.0"
+        },
+        "Symantec": {
+            "detected": true,
+            "result": "Trojan.Gen.MBT",
+            "update": "20251012",
+            "version": "1.22.0.0"
+        },
+        "TACHYON": {
+            "detected": false,
+            "result": null,
+            "update": "20251012",
+            "version": "2025-10-12.02"
+        },
+        "Tencent": {
+            "detected": true,
+            "result": "Malware.Win32.Gencirc.119184a8",
+            "update": "20251013",
+            "version": "1.0.0.1"
+        },
+        "Trapmine": {
+            "detected": true,
+            "result": "malicious.moderate.ml.score",
+            "update": "20250923",
+            "version": "4.0.5.0"
+        },
+        "TrellixENS": {
+            "detected": true,
+            "result": "Artemis!E0B71B54617A",
+            "update": "20251012",
+            "version": "6.0.6.653"
+        },
+        "TrendMicro": {
+            "detected": false,
+            "result": null,
+            "update": "20251012",
+            "version": "24.550.0.1002"
+        },
+        "TrendMicro-HouseCall": {
+            "detected": true,
+            "result": "Trojan.Win32.VSX.PE04C9n",
+            "update": "20251012",
+            "version": "24.550.0.1002"
+        },
+        "VBA32": {
+            "detected": true,
+            "result": "Malware-Cryptor.Limpopo",
+            "update": "20251010",
+            "version": "5.4.0"
+        },
+        "VIPRE": {
+            "detected": true,
+            "result": "Gen:Heur.Mint.Zitirez.NvX@c0kBFQQiBd",
+            "update": "20251012",
+            "version": "6.0.0.35"
+        },
+        "Varist": {
+            "detected": true,
+            "result": "W32/Strab.C.gen!Eldorado",
+            "update": "20251012",
+            "version": "6.6.1.3"
+        },
+        "ViRobot": {
+            "detected": false,
+            "result": null,
+            "update": "20251012",
+            "version": "2014.3.20.0"
+        },
+        "VirIT": {
+            "detected": true,
+            "result": "Trojan.Win32.Genus.OGL",
+            "update": "20251010",
+            "version": "9.5.1060"
+        },
+        "Webroot": {
+            "detected": true,
+            "result": "W32.Trojan.Gen",
+            "update": "20250227",
+            "version": "1.9.0.8"
+        },
+        "Xcitium": {
+            "detected": true,
+            "result": "Malware@#yihrmra9x70z",
+            "update": "20251012",
+            "version": "38108"
+        },
+        "Yandex": {
+            "detected": true,
+            "result": "Trojan.Strab!7xodQTu5Ayc",
+            "update": "20251012",
+            "version": "5.5.2.24"
+        },
+        "Zillya": {
+            "detected": true,
+            "result": "Downloader.Agent.Win32.506776",
+            "update": "20251010",
+            "version": "2.0.0.5463"
+        },
+        "ZoneAlarm": {
+            "detected": false,
+            "result": null,
+            "update": "20251012",
+            "version": "6.20-109671985"
+        },
+        "Zoner": {
+            "detected": false,
+            "result": null,
+            "update": "20251012",
+            "version": "2.2.2.0"
+        },
+        "alibabacloud": {
+            "detected": true,
+            "result": "Trojan[downloader]:Win/Doubleback.Gen",
+            "update": "20250321",
+            "version": "2.2.0"
+        },
+        "huorong": {
+            "detected": false,
+            "result": null,
+            "update": "20251012",
+            "version": "4c37587:4c37587:4121f05:4121f05"
+        },
+        "tehtris": {
+            "detected": false,
+            "result": null,
+            "update": "20251013",
+            "version": "v0.1.4"
+        }
+    },
+    "sha1": "60b45c939febab50f0b6ff9bb4ee46b666ee4fb6",
+    "sha256": "8a7eadc7085b0a572fe4cfe17a02e828107d2f3dc0e1e2730a47fa1bed43e349",
+    "total": 72,
+    "verbose_msg": "Scan finished, information embedded"
+}
