@@ -1,5 +1,7 @@
 
+## Commercial Antivirus Limitation
 
+###### Table 2 Results of 78 commercial antiviruses:
 
 | Antivírus           | Detectado (%) | Não Detectado (%) | Omissos (%) |
 | ------------------- | ------------- | ----------------- | ----------- |
@@ -74,7 +76,8 @@
 
 
 
-Tabela 2
+
+###### Table 2 Result of the submission of three malware to VirusTotal. Expanded analysis of 78 international antiviruses:
 
 
 
