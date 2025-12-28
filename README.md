@@ -69,3 +69,84 @@
 | TEHTRIS             | 89.51         | 8.47              | 2.01        |
 | Acronis (Static ML) | 88.20         | 11.80             | 0.00        |
 | Cylance (Legacy)    | 86.89         | 11.01             | 2.10        |
+
+
+
+
+
+Tabela 2
+
+
+
+| Antivirus | Rhadamanthys_A | Rhadamanthys_B | Rhadamanthys_C |
+|----------|---------------|---------------|---------------|
+| ALYac | Trojan.Agent.GCRY | Trojan.GenericKD.75311050 | Gen:Variant.Zusy.569029 |
+| APEX | Malicious | Malicious | null |
+| AVG | Win32:CrypterX-gen [Trj] | Win32:BootkitX-gen [Rtk] | Win32:Malware-gen |
+| Acronis | suspicious | null | null |
+| AhnLab-V3 | Malware/Win.FSWW.R556314 | null | Malware/Win.Malware-gen.R683885 |
+| Alibaba | Backdoor:Win32/Raccoon | TrojanPSW:Win32/Smokeloader | TrojanSpy:Win32/Strab |
+| Antiy-AVL | Trojan/Win32.Kryptik | Trojan[PSW]/Win32.Rhadamanthys | Trojan/Win32.Loader |
+| Arcabit | Trojan.Agent.GCRY | Trojan.Generic.D47D27CA | Trojan.Zusy.D8AEC5 |
+| Avast | Win32:CrypterX-gen [Trj] | Win32:BootkitX-gen [Rtk] | Win32:Malware-gen |
+| Avira | HEUR/AGEN.1363190 | null | TR/Redcap.uxffj |
+| Baidu | null | null | null |
+| BitDefender | Trojan.Agent.GCRY | Trojan.GenericKD.75311050 | Gen:Variant.Zusy.569148 |
+| Bkav | W32.AIDetectMalware | W32.AIDetectMalware | W32.AIDetectMalware |
+| CAT-QuickHeal | Trojan.Krypt.S29488045 | Trojan.ClipBanker | Trojan.Ghanarava |
+| CMC | null | null | null |
+| CTX | exe.trojan.kryptik | exe.trojan.generic | exe.trojan.redcap |
+| ClamAV | Win.Dropper.Tofsee | null | Win.Packer.HeartCrypt |
+| CrowdStrike | win/malicious_confidence_100% | win/malicious_confidence_100% | win/malicious_confidence_100% |
+| Cylance | Unsafe | Unsafe | Unsafe |
+| Cynet | Malicious (score: 100) | Malicious (score: 100) | Malicious (score: 99) |
+| DeepInstinct | MALICIOUS | MALICIOUS | MALICIOUS |
+| DrWeb | Trojan.Inject4.51920 | Trojan.DownLoader47.36298 | Trojan.DownLoader47.36298 |
+| ESET-NOD32 | Win32/Kryptik.HSOO | Win32/Kryptik.HYPL | Win32/Spy.Rhadamanthys.AG |
+| Elastic | malicious (high confidence) | malicious (high confidence) | Windows.Generic.Threat |
+| Emsisoft | Trojan.Agent.GCRY (B) | Trojan.GenericKD.75311050 (B) | Gen:Variant.Zusy.569148 (B) |
+| F-Secure | HEUR/AGEN.1363190 | null | Trojan.TR/Redcap.uxffj |
+| FireEye | Generic.mg | Generic.mg | null |
+| Fortinet | W32/Kryptik.HHPX!tr | PossibleThreat.RF | W32/Loader_Lycaon.G!tr |
+| GData | Win32.Trojan.PSE | Trojan.GenericKD.75311050 | Gen:Variant.Zusy.569148 |
+| Google | Detected | Detected | Detected |
+| Gridinsoft | Trojan.Win32.Downloader | Ransom.Win32.AzorUlt | Trojan.Win32.Gen |
+| Ikarus | Trojan-Spy.TitanStealer | Trojan.Win32.Azorult | Trojan.Win32.Krypt |
+| Jiangmin | Trojan.Denes.pb | null | null |
+| K7AntiVirus | Trojan | Trojan | Spyware |
+| K7GW | Trojan | Trojan | Spyware |
+| Kaspersky | Backdoor.Win32.Mokes | Trojan-PSW.Win32.Rhadamanthys | Trojan.Win32.Strab |
+| Kingsoft | win32.hack | Trojan-PSW.Rhadamanthys | Win32.HeurC |
+| Lionic | Trojan.Win32.Mokes | Trojan.Win32.Rhadamanthys | Trojan.Win32.Redcap |
+| Malwarebytes | Generic.Malware.AI | Trojan.MalPack | Malware.AI |
+| MaxSecure | Trojan.Malware | Trojan.Malware | Trojan.Malware |
+| McAfee | Lockbit-FSWW | Artemis | null |
+| McAfeeD | ti!0A80F680C49F | Real Protect-LS | ti!0B393E441F2D |
+| MicroWorld-eScan | Trojan.Agent.GCRY | Trojan.GenericKD.75311050 | Gen:Variant.Zusy.569148 |
+| Microsoft | Trojan:Win32/Raccoon | Trojan:Win32/Smokeloader | Trojan:Win32/Redcap |
+| NANO-Antivirus | Trojan.Win32.Mokes | null | null |
+| Paloalto | generic.ml | generic.ml | generic.ml |
+| Panda | Trj/Genetic.gen | Trj/Chgt.AD | Trj/Chgt.AD |
+| Rising | Trojan.Kryptik | Stealer.Convagent | Trojan.Injector |
+| SUPERAntiSpyware | Trojan.Agent | null | null |
+| Sangfor | Trojan.Win32.Save | Trojan.Win32.Save | Spyware.Win32.Redcap |
+| SentinelOne | Static AI - Malicious PE | Static AI - Malicious PE | null |
+| Skyhigh | BehavesLike.Win32.Lockbit | BehavesLike.Win32.Lockbit | BehavesLike.Win32.Dropper |
+| Sophos | Troj/Krypt-TN | Troj/Krypt-AIN | Troj/HCrypt-D |
+| Symantec | Trojan.Gen.2 | ML.Attribute.HighConfidence | Trojan Horse |
+| TACHYON | null | null | null |
+| Tencent | Trojan.Win32.Obfuscated | Malware.Win32.Gencirc | Backdoor.Win32.Runshell |
+| Trapmine | suspicious.low.ml.score | malicious.high.ml.score | suspicious.low.ml.score |
+| TrendMicro | Ransom.Win32.STOP | null | TROJ_GEN |
+| TrendMicro-HouseCall | null | null | TROJ_GEN |
+| VBA32 | Malware-Cryptor | Trojan.Khalesi | BScope.Trojan |
+| VIPRE | Trojan.Agent.GCRY | Trojan.GenericKD.75311050 | Gen:Variant.Zusy.569029 |
+| Varist | W32/Kryptik | null | W32/ABRisk |
+| ViRobot | Trojan.Win.Z.Agent | null | null |
+| VirIT | Trojan.Win32.Genus | Trojan.Win32.Genus | null |
+| Webroot | W32.Trojan.Gen | W32.Trojan.Gen | W32.Trojan.Gen |
+| Xcitium | null | Malware@ | null |
+| Yandex | Trojan.Kryptik | null | Trojan.Strab |
+| Zillya | Trojan.Kryptik.Win32 | null | null |
+| Zoner | null | null | null |
+
