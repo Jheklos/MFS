@@ -1,0 +1,447 @@
+{
+    "md5": "0240f93b9137fcad9a0570a5bd06fc05",
+    "permalink": "https://www.virustotal.com/gui/file/deb0e9fe1aa66fc42d58bf8561a417d6018f4a1b28b9d2a891a353b6f3d670d0/detection/f-deb0e9fe1aa66fc42d58bf8561a417d6018f4a1b28b9d2a891a353b6f3d670d0-1755205277",
+    "positives": 56,
+    "resource": "deb0e9fe1aa66fc42d58bf8561a417d6018f4a1b28b9d2a891a353b6f3d670d0",
+    "response_code": 1,
+    "scan_date": "2025-08-14 21:01:17",
+    "scan_id": "deb0e9fe1aa66fc42d58bf8561a417d6018f4a1b28b9d2a891a353b6f3d670d0-1755205277",
+    "scans": {
+        "ALYac": {
+            "detected": true,
+            "result": "Dropped:Generic.Malware.S!dld!.F9411005",
+            "update": "20250814",
+            "version": "2.0.0.10"
+        },
+        "APEX": {
+            "detected": true,
+            "result": "Malicious",
+            "update": "20250813",
+            "version": "6.686"
+        },
+        "AVG": {
+            "detected": true,
+            "result": "Win32:Dh-A [Heur]",
+            "update": "20250814",
+            "version": "23.9.8494.0"
+        },
+        "Acronis": {
+            "detected": false,
+            "result": null,
+            "update": "20240328",
+            "version": "1.2.0.121"
+        },
+        "AhnLab-V3": {
+            "detected": true,
+            "result": "Trojan/Win.Phorpiex.C5585557",
+            "update": "20250814",
+            "version": "3.28.0.10568"
+        },
+        "Alibaba": {
+            "detected": true,
+            "result": "TrojanBanker:Win32/Phorpiex.cfe0b0f8",
+            "update": "20190527",
+            "version": "0.3.0.5"
+        },
+        "Antiy-AVL": {
+            "detected": true,
+            "result": "Trojan[Banker]/Win32.ClipBanker",
+            "update": "20250814",
+            "version": "3.0"
+        },
+        "Arcabit": {
+            "detected": true,
+            "result": "Generic.Malware.S!dld!.FD8F99BD",
+            "update": "20250814",
+            "version": "2025.0.0.23"
+        },
+        "Avast": {
+            "detected": true,
+            "result": "Win32:Dh-A [Heur]",
+            "update": "20250814",
+            "version": "23.9.8494.0"
+        },
+        "Avira": {
+            "detected": true,
+            "result": "TR/Redcap.lifpm",
+            "update": "20250814",
+            "version": "8.3.3.22"
+        },
+        "Baidu": {
+            "detected": false,
+            "result": null,
+            "update": "20190318",
+            "version": "1.0.0.2"
+        },
+        "BitDefender": {
+            "detected": true,
+            "result": "Dropped:Generic.Malware.S!dld!.F9411005",
+            "update": "20250814",
+            "version": "7.2"
+        },
+        "Bkav": {
+            "detected": true,
+            "result": "W32.AIDetectMalware",
+            "update": "20250814",
+            "version": "2.0.0.1"
+        },
+        "CAT-QuickHeal": {
+            "detected": false,
+            "result": null,
+            "update": "20250813",
+            "version": "22.00"
+        },
+        "CMC": {
+            "detected": false,
+            "result": null,
+            "update": "20250814",
+            "version": "2.4.2022.1"
+        },
+        "CTX": {
+            "detected": true,
+            "result": "exe.trojan.phorpiex",
+            "update": "20250814",
+            "version": "2024.8.29.1"
+        },
+        "ClamAV": {
+            "detected": false,
+            "result": null,
+            "update": "20250814",
+            "version": "1.4.3.0"
+        },
+        "CrowdStrike": {
+            "detected": true,
+            "result": "win/malicious_confidence_100% (W)",
+            "update": "20231026",
+            "version": "1.0"
+        },
+        "Cylance": {
+            "detected": true,
+            "result": "Unsafe",
+            "update": "20250813",
+            "version": "3.0.0.0"
+        },
+        "Cynet": {
+            "detected": true,
+            "result": "Malicious (score: 100)",
+            "update": "20250814",
+            "version": "4.0.3.4"
+        },
+        "DeepInstinct": {
+            "detected": true,
+            "result": "MALICIOUS",
+            "update": "20250813",
+            "version": "5.0.0.8"
+        },
+        "DrWeb": {
+            "detected": true,
+            "result": "Trojan.DownLoader46.51427",
+            "update": "20250814",
+            "version": "7.0.69.6040"
+        },
+        "ESET-NOD32": {
+            "detected": true,
+            "result": "Win32/Phorpiex.BC",
+            "update": "20250814",
+            "version": "31695"
+        },
+        "Elastic": {
+            "detected": true,
+            "result": "malicious (high confidence)",
+            "update": "20250814",
+            "version": "4.0.220"
+        },
+        "Emsisoft": {
+            "detected": true,
+            "result": "Dropped:Generic.Malware.S!dld!.F9411005 (B)",
+            "update": "20250814",
+            "version": "2024.8.0.61147"
+        },
+        "F-Secure": {
+            "detected": true,
+            "result": "Trojan.TR/Redcap.lifpm",
+            "update": "20250814",
+            "version": "18.10.1547.307"
+        },
+        "Fortinet": {
+            "detected": true,
+            "result": "W32/Malicious_Behavior.VEX",
+            "update": "20250814",
+            "version": "7.0.30.0"
+        },
+        "GData": {
+            "detected": true,
+            "result": "Win32.Trojan.Phorpiex.D",
+            "update": "20250814",
+            "version": "GD:27.41423AVA:64.29655"
+        },
+        "Google": {
+            "detected": true,
+            "result": "Detected",
+            "update": "20250814",
+            "version": "1755196242"
+        },
+        "Gridinsoft": {
+            "detected": false,
+            "result": null,
+            "update": "20250814",
+            "version": "1.0.223.174"
+        },
+        "Ikarus": {
+            "detected": true,
+            "result": "Worm.Win32.Phorpiex",
+            "update": "20250814",
+            "version": "6.4.16.0"
+        },
+        "Jiangmin": {
+            "detected": false,
+            "result": null,
+            "update": "20250813",
+            "version": "16.0.100"
+        },
+        "K7AntiVirus": {
+            "detected": true,
+            "result": "Riskware ( 00584baa1 )",
+            "update": "20250814",
+            "version": "14.1.56702"
+        },
+        "K7GW": {
+            "detected": true,
+            "result": "Riskware ( 00584baa1 )",
+            "update": "20250814",
+            "version": "14.1.56702"
+        },
+        "Kaspersky": {
+            "detected": true,
+            "result": "HEUR:Trojan-Banker.Win32.ClipBanker.gen",
+            "update": "20250814",
+            "version": "22.0.1.28"
+        },
+        "Kingsoft": {
+            "detected": true,
+            "result": "malware.kb.a.998",
+            "update": "20250814",
+            "version": "None"
+        },
+        "Lionic": {
+            "detected": true,
+            "result": "Trojan.Win32.Phorpiex.7!c",
+            "update": "20250814",
+            "version": "8.16"
+        },
+        "Malwarebytes": {
+            "detected": true,
+            "result": "Spyware.Phorpiex",
+            "update": "20250814",
+            "version": "3.1.0.150"
+        },
+        "MaxSecure": {
+            "detected": true,
+            "result": "Trojan.Malware.121218.susgen",
+            "update": "20250814",
+            "version": "1.0.0.1"
+        },
+        "McAfeeD": {
+            "detected": true,
+            "result": "ti!DEB0E9FE1AA6",
+            "update": "20250814",
+            "version": "1.2.0.10275"
+        },
+        "MicroWorld-eScan": {
+            "detected": true,
+            "result": "Dropped:Generic.Malware.S!dld!.F9411005",
+            "update": "20250814",
+            "version": "14.0.409.0"
+        },
+        "Microsoft": {
+            "detected": true,
+            "result": "Trojan:Win32/Phorpiex.RB!MTB",
+            "update": "20250814",
+            "version": "1.1.25070.4"
+        },
+        "NANO-Antivirus": {
+            "detected": true,
+            "result": "Trojan.Win32.ClipBanker.kjgbrj",
+            "update": "20250814",
+            "version": "1.0.170.26895"
+        },
+        "Paloalto": {
+            "detected": true,
+            "result": "generic.ml",
+            "update": "20250814",
+            "version": "0.9.0.1003"
+        },
+        "Panda": {
+            "detected": true,
+            "result": "Trj/GdSda.A",
+            "update": "20250814",
+            "version": "4.6.4.2"
+        },
+        "Rising": {
+            "detected": true,
+            "result": "Worm.Phorpiex!8.48D (TFE:5:x5IjHOjhutD)",
+            "update": "20250814",
+            "version": "25.0.0.28"
+        },
+        "SUPERAntiSpyware": {
+            "detected": false,
+            "result": null,
+            "update": "20250813",
+            "version": "5.6.0.1032"
+        },
+        "Sangfor": {
+            "detected": true,
+            "result": "Trojan.Win32.Save.a",
+            "update": "20250811",
+            "version": "2.22.3.0"
+        },
+        "SentinelOne": {
+            "detected": true,
+            "result": "Static AI - Malicious PE",
+            "update": "20250114",
+            "version": "25.1.1.1"
+        },
+        "Skyhigh": {
+            "detected": true,
+            "result": "Artemis!Trojan",
+            "update": "20250814",
+            "version": "v2021.2.0+4045"
+        },
+        "Sophos": {
+            "detected": true,
+            "result": "Mal/Generic-S",
+            "update": "20250814",
+            "version": "3.1.2.0"
+        },
+        "Symantec": {
+            "detected": true,
+            "result": "Trojan Horse",
+            "update": "20250814",
+            "version": "1.22.0.0"
+        },
+        "TACHYON": {
+            "detected": false,
+            "result": null,
+            "update": "20250814",
+            "version": "2025-08-14.02"
+        },
+        "Tencent": {
+            "detected": true,
+            "result": "Malware.Win32.Gencirc.14003a11",
+            "update": "20250814",
+            "version": "1.0.0.1"
+        },
+        "Trapmine": {
+            "detected": true,
+            "result": "malicious.moderate.ml.score",
+            "update": "20250721",
+            "version": "4.0.4.0"
+        },
+        "TrellixENS": {
+            "detected": true,
+            "result": "Artemis!0240F93B9137",
+            "update": "20250814",
+            "version": "6.0.6.653"
+        },
+        "TrendMicro": {
+            "detected": false,
+            "result": null,
+            "update": "20250814",
+            "version": "24.550.0.1002"
+        },
+        "TrendMicro-HouseCall": {
+            "detected": true,
+            "result": "Trojan.Win32.VSX.PE04C9j",
+            "update": "20250814",
+            "version": "24.550.0.1002"
+        },
+        "VBA32": {
+            "detected": true,
+            "result": "BScope.TrojanBanker.ClipBanker",
+            "update": "20250814",
+            "version": "5.3.2"
+        },
+        "VIPRE": {
+            "detected": true,
+            "result": "Dropped:Generic.Malware.S!dld!.F9411005",
+            "update": "20250814",
+            "version": "6.0.0.35"
+        },
+        "Varist": {
+            "detected": true,
+            "result": "W32/S-3439e4c9!Eldorado",
+            "update": "20250814",
+            "version": "6.6.1.3"
+        },
+        "ViRobot": {
+            "detected": false,
+            "result": null,
+            "update": "20250814",
+            "version": "2014.3.20.0"
+        },
+        "VirIT": {
+            "detected": true,
+            "result": "Trojan.Win32.Genus.VCQ",
+            "update": "20250814",
+            "version": "9.5.1019"
+        },
+        "Webroot": {
+            "detected": false,
+            "result": null,
+            "update": "20250227",
+            "version": "1.10.0.2"
+        },
+        "Xcitium": {
+            "detected": true,
+            "result": "Malware@#14vrvj2qbpgw3",
+            "update": "20250814",
+            "version": "37958"
+        },
+        "Yandex": {
+            "detected": false,
+            "result": null,
+            "update": "20250814",
+            "version": "5.5.2.24"
+        },
+        "Zillya": {
+            "detected": true,
+            "result": "Worm.Phorpiex.Win32.3046",
+            "update": "20250814",
+            "version": "2.0.0.5425"
+        },
+        "ZoneAlarm": {
+            "detected": false,
+            "result": null,
+            "update": "20250814",
+            "version": "6.19-108462845"
+        },
+        "Zoner": {
+            "detected": false,
+            "result": null,
+            "update": "20250814",
+            "version": "2.2.2.0"
+        },
+        "alibabacloud": {
+            "detected": true,
+            "result": "Trojan:Win/Phorpiex.BU",
+            "update": "20250321",
+            "version": "2.2.0"
+        },
+        "huorong": {
+            "detected": true,
+            "result": "Worm/Phorpiex.v",
+            "update": "20250814",
+            "version": "f2ec07d:f2ec07d:8a43409:8a43409"
+        },
+        "tehtris": {
+            "detected": false,
+            "result": null,
+            "update": "20250814",
+            "version": "v0.1.4"
+        }
+    },
+    "sha1": "a5402c0f2784e2df894804d167809ea7735ccae8",
+    "sha256": "deb0e9fe1aa66fc42d58bf8561a417d6018f4a1b28b9d2a891a353b6f3d670d0",
+    "total": 72,
+    "verbose_msg": "Scan finished, information embedded"
+}
