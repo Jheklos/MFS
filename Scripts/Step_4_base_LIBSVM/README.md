@@ -1,78 +1,66 @@
-# Converter planilha para  .libsvm 
-
+# Convert Spreadsheet to .libsvm
 
 ---
 
-## 📦 Requisitos
+## 📦 Requirements
 
 - Python **3.8+**
-- Linux / macOS (ou WSL no Windows)
+- Linux / macOS (or WSL on Windows)
 
 ---
 
-## 🚀 Instalação e Configuração
+## 🚀 Installation and Configuration
 
-### 1️⃣ Criar ambiente virtual
+### 1️⃣ Create virtual environment
 
 ```
 python3 -m venv myenv
 ```
 
-### 2️⃣ Ativar o ambiente virtual
-
+### 2️⃣ Activate the virtual environment
 
 ```
 source myenv/bin/activate
-
 ```
 
-### 3️⃣ Instalar dependências caso necessário
-```
-pip install DEPENDENCIA
+### 3️⃣ Install dependencies if necessary
 
 ```
-🔁 Substitua **DEPENDENCIA** pelo nome da dependência necessária
+pip install DEPENDENCY
+```
+🔁 Replace **DEPENDENCY** with the name of the required dependency.
 
-## Colocar  o csv na mesma pasta do script
+## Place the CSV in the same folder as the script
 
-# ▶️ Executando o Script
+# ▶️ Running the Script
 
-Após configurar o ambiente, execute:
+After configuring the environment, run:
 
 ```
 python converter_libsvm.py DATA.csv DATA.libsvm
-
-
 ```
 
-🔁 Substitua **DATA.csv** pelo nome do seu arquivo CSV e crie o nome do .libsvm
+🔁 Replace **DATA.csv** with your CSV file name and create the name for the **.libsvm** file.
 
-
-
-ou com o caminho
-```
-python converter_libsvm.py /caminho/para/DATA.csv /caminho/para/DaTA.libsvm
+Or using the full path:
 
 ```
+python converter_libsvm.py /path/to/DATA.csv /path/to/DATA.libsvm
+```
 
-
-# Facultativo (não foi utilizado no artigo de persquisa) :
-
+# Optional (not used in the research paper):
 
 ```
 python3 preprocess_and_split_space.py Data.csv
-
 ```
 
-Isso vai gerar:
+This will generate:
 
 * Data_train.txt
-
 * Data_test.txt
 
-Ambos compatíveis diretamente com o melm.py onde podera rodar o código:
+Both are directly compatible with `melm.py`, where you can run the code:
 
 ```
-
 python3 melm.py -tr Data_train.txt -ts Data_test.txt -ty 1 -nh 100 -af sigmoid -v
 ```
