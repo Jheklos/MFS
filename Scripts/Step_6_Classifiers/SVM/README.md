@@ -1,33 +1,31 @@
-# 📘 SVM Parameters 
+# 📘 SVM Parameters
 
-Este projeto fornece um script para testar diferentes **configurações de Support Vector Machine (SVM)**, avaliando múltiplos kernels, e validação cruzada, com geração automática de **relatórios HTML**, gráficos e métricas estatísticas.
+This project provides a script to test different **Support Vector Machine (SVM)** configurations, evaluating multiple kernels and cross-validation, with automatic generation of **HTML reports**, charts, and statistical metrics.
 
 ---
 
-## 📦 Requisitos
+## 📦 Requirements
 
 - Python **3.8+**
-- Linux / macOS (ou WSL no Windows)
+- Linux / macOS (or WSL on Windows)
 
 ---
 
-## 🚀 Instalação e Configuração
+## 🚀 Installation and Configuration
 
-### 1️⃣ Criar ambiente virtual
+### 1️⃣ Create virtual environment
 
 ```
 python3 -m venv myenv
 ```
 
-### 2️⃣ Ativar o ambiente virtual
-
+### 2️⃣ Activate the virtual environment
 
 ```
 source myenv/bin/activate
-
 ```
 
-### 3️⃣ Instalar dependências
+### 3️⃣ Install dependencies
 ```
 pip install libsvm
 pip install brisque
@@ -36,22 +34,21 @@ pip install Jinja2
 pip install matplotlib
 pip install seaborn
 ```
-# ▶️ Executando o Script
 
-Após configurar o ambiente, execute:
+# ▶️ Running the Script
+
+After configuring the environment, run:
 
 ```
 python svmParameters.py -dataset DATA.libsvm 
-
 ```
 
-🔁 Substitua **DATA.libsvm** pelo nome do seu arquivo .libsvm 
+🔁 Replace **DATA.libsvm** with the name of your .libsvm file.
 
-#Parâmetros do modelo SVM (LIBSVM)
+# SVM Model Parameters (LIBSVM)
 
-
-| Parâmetro       | Símbolo | Valores usados | Descrição                                                                 |
+| Parameter       | Symbol | Values used    | Description                                                               |
 | --------------- | ------- | -------------- | ------------------------------------------------------------------------- |
-| Kernel          | `-t`    | `0, 1, 2, 3`   | Tipo de kernel:<br>0 = Linear<br>1 = Polinomial<br>2 = RBF<br>3 = Sigmoid |
-| Custo           | `-c`    | `10⁰, 10³`     | Parâmetro de penalização (regularização)                                  |
-| Gamma           | `-g`    | `10⁰`          | Parâmetro de largura do kernel (RBF, Poly, Sigmoid)                       |
+| Kernel          | `-t`    | `0, 1, 2, 3`   | Kernel type:<br>0 = Linear<br>1 = Polynomial<br>2 = RBF<br>3 = Sigmoid    |
+| Cost            | `-c`    | `10⁰, 10³`     | Penalization parameter (regularization)                                   |
+| Gamma           | `-g`    | `10⁰`          | Kernel width parameter (RBF, Poly, Sigmoid)                               |
