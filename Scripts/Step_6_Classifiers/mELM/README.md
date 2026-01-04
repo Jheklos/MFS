@@ -1,33 +1,31 @@
 # 📘 ELM Parameters 
 
-Este projeto fornece um script para testar diferentes **configurações de Extreme Learning Machine (ELM)**, avaliando múltiplos kernels, números de neurônios e validação cruzada, com geração automática de **relatórios HTML**, gráficos e métricas estatísticas.
+This project provides a script to test different **Extreme Learning Machine (ELM) configurations**, evaluating multiple kernels, number of neurons, and cross-validation, with automatic generation of **HTML reports**, charts, and statistical metrics.
 
 ---
 
-## 📦 Requisitos
+## 📦 Requirements
 
 - Python **3.8+**
-- Linux / macOS (ou WSL no Windows)
+- Linux / macOS (or WSL on Windows)
 
 ---
 
-## 🚀 Instalação e Configuração
+## 🚀 Installation and Configuration
 
-### 1️⃣ Criar ambiente virtual
+### 1️⃣ Create virtual environment
 
 ```
 python3 -m venv myenv
 ```
 
-### 2️⃣ Ativar o ambiente virtual
-
+### 2️⃣ Activate the virtual environment
 
 ```
 source myenv/bin/activate
-
 ```
 
-### 3️⃣ Instalar dependências
+### 3️⃣ Install dependencies
 ```
 pip install scikit-learn
 pip install pandas
@@ -36,13 +34,13 @@ pip install matplotlib
 pip install seaborn
 ```
 
-# ▶️ Executando o Script
+# ▶️ Running the Script
 
-Após configurar o ambiente, execute:
+After configuring the environment, run:
 
 ```
 python3 melmParameters.py \
-  -tall DADOS.csv \
+  -tall DATA.csv \
   -ty 1 \
   -nh 50,200,1000 \
   -af sigmoid,linear,radbas \
@@ -51,85 +49,67 @@ python3 melmParameters.py \
   -v
 ```
 
-🔁 Substitua **DADOS.csv** pelo nome do seu arquivo CSV.
+🔁 Replace **DATA.csv** with your CSV file name.
 
 
-# 🧠 Descrição do Algoritmo
+# 🧠 Algorithm Description
 
-O script executa testes automatizados de ELM variando:
+The script performs automated ELM tests by varying:
 
-* Funções de ativação (kernels)
+* Activation functions (kernels)
+* Number of hidden neurons
+* Cross-validation (k-fold)
+* Random seed
+* Generation of visual and statistical reports
 
-* Número de neurônios ocultos
+# ⚙️ Parameters
 
-* Validação cruzada (k-fold)
-
-* Seed aleatória
-
-* Geração de relatórios visuais e estatísticos
-
-# ⚙️ Parâmetros
-
-
-| Parâmetro                   | Descrição                             |
-| --------------------------- | ------------------------------------- |
-| `-tall dados.csv`           | Carrega todos os dados do arquivo CSV |
-| `-ty 1`                     | Coluna da variável alvo               |
-| `-nh 50,100,200`            | Quantidades de neurônios a testar     |
-| `-af sigmoid,linear,radbas` | Funções de ativação (kernels / AFs)   |
-| `-sd 42`                    | Seed do gerador aleatório             |
-| `-kfold 10`                 | Validação cruzada 10-fold             |
-| `-v`                        | Modo verbose                          |
+| Parameter                   | Description                            |
+| --------------------------- | -------------------------------------- |
+| `-tall data.csv`            | Loads all data from the CSV file       |
+| `-ty 1`                     | Target variable column                 |
+| `-nh 50,100,200`            | Number of neurons to test              |
+| `-af sigmoid,linear,radbas` | Activation functions (kernels / AFs)   |
+| `-sd 42`                    | Random generator seed                  |
+| `-kfold 10`                 | 10-fold cross-validation                |
+| `-v`                        | Verbose mode                           |
 
 
 
-✅ Funcionalidades
+✅ Features
 
-✔ Executa múltiplos kernels (sigmoid, linear, radbas)
+✔ Executes multiple kernels (sigmoid, linear, radbas)
+✔ Tests different numbers of neurons (50, 200, 1000)
+✔ Creates an HTML report with tables, images, and matrices
+✔ Calculates mean and standard deviation of metrics
+✔ Converts confusion matrices to percentages
+✔ Automatically saves charts
+✔ Identifies the best and worst kernel
+✔ Prints terminal summary in LaTeX-like format
 
-✔ Testa diferentes números de neurônios (50, 200, 1000)
-
-✔ Cria relatório HTML com tabelas, imagens e matrizes
-
-✔ Calcula média e desvio padrão das métricas
-
-✔ Converte matrizes de confusão para porcentagem
-
-✔ Salva gráficos automaticamente
-
-✔ Identifica melhor e pior kernel
-
-✔ Imprime resumo no terminal em formato LaTeX-like
-
-📊 Métricas Calculadas
+📊 Calculated Metrics
 
 * Train Rate (%)
-
 * Test Rate (%)
-
 * Train Time (s)
-
 * Test Time (s)
 
-🖥️ Saídas Geradas
+🖥️ Generated Outputs
 
-Ao final da execução:
+At the end of the execution:
 
-✔  Impressão no terminal do melhor e pior kernel
+✔ Terminal print of the best and worst kernel
+✔ Confusion matrices (mean ± standard deviation) in percentage
+✔ `elm_report.html` file
+✔ `elm_report_images/` directory containing the charts
 
-✔  Matrizes de confusão (média ± desvio padrão) em porcentagem
+🧪 Using Other Kernels
 
-✔ Arquivo elm_report.html
-
-✔  Diretório elm_report_images/ contendo os gráficos
-
-🧪 Utilizando Outros Kernels
-
-⚠️ Atenção: este comando pode demandar alto custo computacional.
+⚠️ Warning: this command may require high computational cost.
 
 ```
 python3 melmParameters.py \
-  -tall dados.csv \
+  -tall data.csv \
   -ty 1 \
   -nh 50,200,1000 \
   -af sigmoid,linear,radbas,sin,hardlim,tribas,erosion,dilation,fuzzy-erosion,fuzzy-dilation \
