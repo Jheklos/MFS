@@ -1,4 +1,4 @@
-# Convert to Spreadsheet
+# Convert to CSV
 
 You need to create this structure:
 
