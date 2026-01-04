@@ -1,24 +1,29 @@
-﻿# pescanner
 
-converter as amostras para pescanner
+# pescanner
 
-1. colocar o caminho da pasta das amostras (dados brutos) e o caminho da pasta da saida
-2. execultar o comando: 
+Convert samples to pescanner format
+
+1. Set the path to the samples folder (raw data) and the path to the output folder
+2. Run the command:
+
 
 ```
+
 sudo python pescanner.py
-```
-
-obs: caso nao tenha uma senha de sudo criar uma senha de sudo root 
-
-comando para criar a senha de root: 
 
 ```
-sudo passwd root    
-```
 
-comando para logar no root: 
+Note: if you do not have a sudo password, create a root sudo password.
+
+Command to create the root password:
+
+```
+sudo passwd root
+
+```
+Command to log in as root:
 
 ```
 su
+
 ```
