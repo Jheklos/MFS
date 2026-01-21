@@ -3,7 +3,7 @@
 
 ###### Table 2 Results of 78 commercial antiviruses:
 
-| Antivírus           | Detectado (%) | Não Detectado (%) | Omissos (%) |
+| Antivirus            | Detection (%) | False Negative (%) | Omission (%) |
 |:---------------------|------------:|----------------:|---------:|
 | Lionic               |       99.56 |            0.44 |     0    |
 | CTX                  |       99.48 |            0.17 |     0.35 |
