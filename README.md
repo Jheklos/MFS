@@ -164,3 +164,164 @@
 | Zillya | Trojan.Kryptik.Win32 | null | null |
 | Zoner | null | null | null |
 
+
+
+# Malware and Threat Descriptions
+
+This document provides concise descriptions of malware families, trojans, stealers, RATs, and other cyber threats commonly observed in malicious campaigns.
+
+---
+
+## Adware.Neoreklami
+
+Adware.Neoreklami is an unwanted program that employs multiple methods to display advertisements on Windows computers \cite{HAQUE}. It negatively impacts the user experience by flooding the system with intrusive and often fraudulent ads.
+
+Once installed, this adware continuously generates pop-ups, banners, and other forms of advertising, disrupting web browsing and jeopardizing the user’s online security \cite{MESKAUSKAS}.
+
+---
+
+## Amadey
+
+Amadey is a dropper-type malware first identified in 2018, designed to steal sensitive information and install additional malicious software after receiving commands from the attacker \cite{DHUNGANA}.
+
+Like many modern malware variants, it is sold on underground forums under the Malware-as-a-Service (MaaS) model, with prices starting at US$500 \cite{AMADEY}.
+
+---
+
+## Cobalt Strike
+
+Cobalt Strike is a commercial penetration testing and adversary simulation platform originally developed for the security community. Although it is legitimately used for defensive purposes, threat actors frequently steal or purchase it and repurpose its capabilities for malicious operations.
+
+Its core component is the **Beacon**, a lightweight agent that establishes a covert command-and-control (C2) channel. Through this channel, attackers can:
+
+- Log keystrokes  
+- Capture webcam feeds  
+- Execute arbitrary commands  
+- Perform lateral movement  
+- Deploy ransomware or additional malware  
+- Exfiltrate stolen data  
+
+This makes Cobalt Strike a powerful and widely abused tool in modern cybercrime operations \cite{DOZSA_DAY}.
+
+---
+
+## DanaBot
+
+DanaBot is malware focused on persistence and the theft of monetizable information rather than demanding an immediate ransom. Observed email campaigns use well-crafted social engineering techniques, prioritizing “quality over quantity”.
+
+Its modular architecture allows it to download additional components on demand, increasing flexibility and enhancing its robust data-stealing and remote-monitoring capabilities typical of banking malware \cite{DANABOT}.
+
+---
+
+## Dridex
+
+Dridex is a banking trojan that evolved from Cridex, malware that spread widely in 2012.
+
+Originally, Cridex stole credentials using removable storage devices. In 2014, a revamped version adopted a peer-to-peer (P2P) communication model, making it more resilient against takedown operations \cite{CHUMACHENKO}.
+
+---
+
+## Gozi (Ursnif / Snifula)
+
+Gozi was first discovered in December 2007. Much of its codebase resembled the banking trojans Ursnif and Snifula.
+
+The malware primarily steals account numbers and login credentials from customers of global banks, financial service providers, major retailers, and online merchants \cite{JacksonD}.
+
+---
+
+## Healer
+
+Healer is a malicious executable associated with a trojan. It can steal sensitive information, install additional malware, create backdoors, and enable persistent unauthorized access. These behaviors may lead to data exfiltration, credential theft, and lateral movement within networks \cite{HEALER}.
+
+---
+
+## Heodo (Emotet Variant)
+
+Heodo is a malicious program and a variant of the Emotet family, first identified in 2014. It spreads primarily through malspam campaigns delivering malicious scripts or weaponized Microsoft Word documents with macros.
+
+It can download additional malware, exfiltrate sensitive data, and establish persistence. Infections may result in financial losses, identity theft, and further system compromise \cite{HEODO}.
+
+---
+
+## IcedID
+
+IcedID is a banking trojan first identified in 2017. It can propagate across networks, monitor browser activity through a local proxy, perform web injections and traffic redirection, and maintain active sessions with banking sites. Some samples require a system reboot to evade sandbox-based analysis \cite{ELAJOVA}.
+
+---
+
+## Loki (Lokibot)
+
+Loki is an information-stealing malware first detected in 2015. It is commonly distributed through malicious email attachments and focuses primarily on credential theft from popular web browsers. It also creates a backdoor that allows attackers to install additional malware \cite{DHUNGANA}.
+
+---
+
+## Lumma Stealer (LummaC2)
+
+Lumma Stealer is an information-stealing malware written in C and offered via the MaaS model since at least 2022. It targets cryptocurrency wallets, browser extensions with two-factor authentication, and sensitive credentials. Data is exfiltrated through HTTP POST requests using the `TeslaBrowser/5.5` User-Agent string and includes a loader for additional payloads \cite{LUMMA}.
+
+---
+
+## Mars Stealer
+
+Mars Stealer is a trojan designed to steal cryptocurrency-related information. It spreads through free file-hosting sites, torrents, peer-to-peer networks, and third-party downloads. It avoids infecting users from CIS countries, collects wallet data and private keys, and self-deletes after exfiltration \cite{MARS_STEALER}.
+
+---
+
+## NanoCore
+
+NanoCore is a remote access trojan (RAT) first identified in 2013. It is modular and customizable through plugins. Due to its low cost and ease of use, it has been widely adopted by threat actors. Its author was arrested in 2017 for aiding intrusions carried out with the tool \cite{NANOCORE}.
+
+---
+
+## NetWire
+
+NetWire is a RAT active since 2012. Capabilities include keylogging, card data scraping, startup persistence, and code injection into `notepad.exe`. It is commonly distributed through phishing campaigns \cite{netwirerat}.
+
+---
+
+## njRAT
+
+njRAT is a remote access trojan first detected in the Middle East in 2012. It allows attackers to remotely control compromised systems and perform various malicious activities \cite{NJ_RAT}.
+
+---
+
+## QakBot (Qbot / Pinkslipbot)
+
+QakBot is a highly prevalent malware family active for over a decade. It can steal credentials, collect financial data, and deliver ransomware. Its infrastructure was disrupted by an FBI operation in 2023, though new variants may still emerge under the MaaS model \cite{QAK}.
+
+---
+
+## RecordBreaker Stealer (Raccoon Stealer V2)
+
+RecordBreaker Stealer is commonly distributed as pirated software such as cracks or keygens. Once executed, it harvests sensitive information from the victim’s system. It spreads through compromised websites and social media platforms \cite{RECORDBREAKER}.
+
+---
+
+## Rhadamanthys
+
+Rhadamanthys is an advanced information stealer identified in 2022. It collects browser credentials, cookies, cryptocurrency wallets, and system metadata. Licenses reportedly start at approximately US$250 for 30 days. Its modular design supports extensibility \cite{RHADAMANTHYS}.
+
+---
+
+## RisePro Stealer
+
+RisePro Stealer exfiltrates credentials, cookies, payment card details, cryptocurrency wallet data, and configuration files from communication platforms. It incorporates anti-virtual machine techniques to evade analysis \cite{RISEPRO}.
+
+---
+
+## SmokeLoader
+
+SmokeLoader is a modular trojan loader used to deliver additional malware such as backdoors, ransomware, cryptominers, credential stealers, and banking trojans. It spreads through phishing emails, spam campaigns, and exploit kits \cite{SMOKELOADER}.
+
+---
+
+## Snake Keylogger
+
+Snake is a modular .NET keylogger first observed in 2020. Features include keystroke logging, screenshots, clipboard data extraction, and browser/email credential theft. It operates stealthily and transmits collected information to attackers \cite{SNAKE_KEYLOGGER}.
+
+---
+
+## STOP/Djvu Ransomware
+
+STOP (Djvu) is a ransomware family that encrypts victim files using AES-256 and appends specific extensions. Many variants encrypt only the first 5 MB of files for speed. Early versions used hardcoded keys, while newer ones use unique per-victim online keys, making recovery without the attacker’s key extremely difficult \cite{STOP}.
+
