@@ -325,3 +325,231 @@ Snake is a modular .NET keylogger first observed in 2020. Features include keyst
 
 STOP (Djvu) is a ransomware family that encrypts victim files using AES-256 and appends specific extensions. Many variants encrypt only the first 5 MB of files for speed. Early versions used hardcoded keys, while newer ones use unique per-victim online keys, making recovery without the attacker’s key extremely difficult \cite{STOP}.
 
+
+# Descrições de Malware e Ameaças
+
+Este documento apresenta descrições resumidas de famílias de malware, trojans, stealers, RATs e outras ameaças cibernéticas comumente observadas em campanhas maliciosas.
+
+---
+
+## Adware.Neoreklami
+
+Adware.Neoreklami é um programa indesejado que utiliza múltiplos métodos para exibir anúncios em computadores Windows \cite{HAQUE}. Ele prejudica a experiência do usuário ao inundar o sistema com propagandas intrusivas e frequentemente fraudulentas.
+
+Após a instalação, o adware gera continuamente pop-ups, banners e outros formatos de publicidade, interrompendo a navegação na web e colocando a segurança online do usuário em risco \cite{MESKAUSKAS}.
+
+---
+
+## Amadey
+
+Amadey é um malware do tipo *dropper*, identificado pela primeira vez em 2018, projetado para roubar informações sensíveis e instalar softwares maliciosos adicionais após receber comandos do invasor \cite{DHUNGANA}.
+
+Assim como muitas variantes modernas, é vendido em fóruns clandestinos no modelo *Malware-as-a-Service (MaaS)*, com preços a partir de US$500 \cite{AMADEY}.
+
+---
+
+## Cobalt Strike
+
+Cobalt Strike é uma plataforma comercial de testes de penetração e simulação de adversários, originalmente desenvolvida para a comunidade de segurança. Embora seja utilizada legitimamente para fins defensivos, agentes maliciosos frequentemente roubam ou adquirem a ferramenta para fins ofensivos.
+
+Seu principal componente é o **Beacon**, um agente leve que estabelece um canal furtivo de comando e controle (C2). Por meio desse canal, atacantes podem:
+
+- Registrar teclas digitadas  
+- Capturar imagens de webcam  
+- Executar comandos arbitrários  
+- Realizar movimento lateral  
+- Implantar ransomware ou outros malwares  
+- Exfiltrar dados roubados  
+
+Isso torna o Cobalt Strike uma ferramenta poderosa e amplamente abusada em operações modernas de cibercrime \cite{DOZSA_DAY}.
+
+---
+
+## DanaBot
+
+DanaBot é um malware focado em persistência e no roubo de informações monetizáveis, em vez de exigir resgate imediato. As campanhas de e-mail utilizam técnicas sofisticadas de engenharia social, priorizando “qualidade em vez de quantidade”.
+
+Sua arquitetura modular permite baixar componentes adicionais sob demanda, ampliando suas capacidades de roubo de dados e monitoramento remoto, típicas de malwares bancários \cite{DANABOT}.
+
+---
+
+## Dridex
+
+Dridex é um trojan bancário que evoluiu do Cridex, malware amplamente disseminado em 2012.
+
+Originalmente, o Cridex roubava credenciais usando dispositivos de armazenamento removíveis. Em 2014, uma nova versão passou a utilizar comunicação *peer-to-peer (P2P)*, tornando-o mais resistente a operações de desmantelamento \cite{CHUMACHENKO}.
+
+---
+
+## Gozi (Ursnif / Snifula)
+
+Gozi foi detectado pela primeira vez em dezembro de 2007. Grande parte do seu código era semelhante aos trojans bancários Ursnif e Snifula.
+
+O malware rouba números de contas e credenciais de login de clientes de bancos globais, provedores de serviços financeiros, grandes varejistas e comerciantes online \cite{JacksonD}.
+
+---
+
+## Healer
+
+Healer é um executável malicioso associado a um trojan. Ele pode roubar informações sensíveis, instalar malwares adicionais, criar backdoors e permitir acesso remoto persistente.
+
+Esses comportamentos podem resultar em exfiltração de dados, roubo de credenciais e movimentação lateral dentro da rede \cite{HEALER}.
+
+---
+
+## Heodo (Variante do Emotet)
+
+Heodo é um programa malicioso e uma variante da família Emotet, identificado pela primeira vez em 2014. Propaga-se principalmente por campanhas de *malspam* que distribuem scripts maliciosos ou documentos do Microsoft Word com macros.
+
+Pode baixar malwares adicionais, exfiltrar dados sensíveis e estabelecer persistência. As infecções podem causar perdas financeiras, roubo de identidade e comprometimento adicional do sistema \cite{HEODO}.
+
+---
+
+## IcedID
+
+IcedID é um trojan bancário identificado em 2017. Ele pode:
+
+- Propagar-se pela rede  
+- Monitorar a navegação por meio de um proxy local  
+- Realizar *web injection* e redirecionamento de tráfego  
+- Manter sessões ativas com sites bancários  
+
+Algumas amostras exigem reinicialização do sistema para evitar detecção em ambientes de análise automatizada \cite{ELAJOVA}.
+
+---
+
+## Loki (Lokibot)
+
+Loki é um malware ladrão de informações detectado em 2015. Geralmente distribuído por anexos maliciosos de e-mail, seu foco principal é o roubo de credenciais de navegadores populares.
+
+Também cria um backdoor que permite a instalação de malwares adicionais \cite{DHUNGANA}.
+
+---
+
+## Lumma Stealer (LummaC2)
+
+Lumma Stealer é um malware de roubo de informações escrito em C e oferecido como MaaS desde pelo menos 2022.
+
+Seus principais alvos incluem:
+
+- Carteiras de criptomoedas  
+- Extensões de navegador com autenticação de dois fatores (2FA)  
+- Credenciais sensíveis  
+
+A exfiltração ocorre por requisições HTTP POST usando o *User-Agent* `TeslaBrowser/5.5`, além de incluir um loader para cargas adicionais \cite{LUMMA}.
+
+---
+
+## Mars Stealer
+
+Mars Stealer é um trojan projetado para roubar informações relacionadas a criptomoedas. Ele se espalha por sites de hospedagem de arquivos, torrents, redes P2P e downloads de terceiros.
+
+Evita infectar usuários de países da CEI, coleta dados de carteiras e chaves privadas e se autoexclui após a exfiltração \cite{MARS_STEALER}.
+
+---
+
+## NanoCore
+
+NanoCore é um trojan de acesso remoto (RAT) identificado em 2013. É modular e personalizável por meio de plugins.
+
+Devido ao baixo custo e facilidade de uso, tornou-se popular entre agentes maliciosos. Seu autor foi preso em 2017 por auxiliar invasões realizadas com a ferramenta \cite{NANOCORE}.
+
+---
+
+## NetWire
+
+NetWire é um RAT ativo desde 2012.
+
+Suas capacidades incluem:
+
+- Keylogger  
+- Captura de dados de cartões  
+- Persistência na inicialização  
+- Injeção de código em `notepad.exe`  
+
+É comumente distribuído por campanhas de phishing \cite{netwirerat}.
+
+---
+
+## njRAT
+
+njRAT é um trojan de acesso remoto detectado inicialmente no Oriente Médio em 2012. Permite que atacantes controlem remotamente sistemas comprometidos e executem diversas ações maliciosas \cite{NJ_RAT}.
+
+---
+
+## QakBot (Qbot / Pinkslipbot)
+
+QakBot é uma família de malware altamente prevalente ativa há mais de uma década. Pode roubar credenciais, coletar dados financeiros e servir como vetor para ransomware.
+
+Sua infraestrutura foi desmantelada por uma operação do FBI em 2023, embora novas variantes ainda possam surgir no modelo MaaS \cite{QAK}.
+
+---
+
+## RecordBreaker Stealer (Raccoon Stealer V2)
+
+RecordBreaker Stealer é frequentemente distribuído como software pirateado, como cracks e keygens. Após a execução, coleta dados sensíveis do sistema da vítima.
+
+Espalha-se por sites comprometidos e redes sociais \cite{RECORDBREAKER}.
+
+---
+
+## Rhadamanthys
+
+Rhadamanthys é um stealer avançado identificado em 2022.
+
+Coleta:
+
+- Credenciais de navegador  
+- Cookies  
+- Carteiras de criptomoedas  
+- Metadados do sistema  
+
+Licenças custam cerca de US$250 por 30 dias. Possui design modular extensível \cite{RHADAMANTHYS}.
+
+---
+
+## RisePro Stealer
+
+RisePro Stealer exfiltra credenciais, cookies, dados de pagamento, carteiras de criptomoedas e arquivos de configuração de plataformas de comunicação.
+
+Inclui técnicas anti-máquina virtual (anti-VM) para dificultar análises \cite{RISEPRO}.
+
+---
+
+## SmokeLoader
+
+SmokeLoader é um loader trojan modular usado para entregar malwares adicionais.
+
+Dependendo da configuração, pode instalar:
+
+- Backdoors  
+- Ransomware  
+- Cryptominers  
+- Stealers  
+- Trojans bancários  
+
+É distribuído por phishing, spam e exploit kits \cite{SMOKELOADER}.
+
+---
+
+## Snake Keylogger
+
+Snake é um keylogger .NET modular observado pela primeira vez em 2020.
+
+Possui funcionalidades como:
+
+- Captura de teclas  
+- Captura de tela  
+- Extração de dados da área de transferência  
+- Roubo de credenciais de navegadores e e-mails  
+
+Opera de forma furtiva e envia as informações coletadas ao invasor \cite{SNAKE_KEYLOGGER}.
+
+---
+
+## STOP/Djvu Ransomware
+
+STOP (Djvu) é uma família de ransomware que criptografa arquivos usando AES-256 e adiciona extensões específicas aos nomes dos arquivos.
+
+Muitas variantes criptografam apenas os primeiros 5 MB dos arquivos para acelerar o processo. Versões antigas utilizavam chaves offline fixas, enquanto versões mais recentes usam chaves únicas por vítima, tornando a recuperação sem a chave do atacante extremamente difícil \cite{STOP}.
+
