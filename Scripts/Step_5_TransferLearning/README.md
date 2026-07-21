@@ -28,7 +28,11 @@ To extract features using the ResNet model:
 ```bash
  python FeatureExtractor/extract_features.py -model resnet -data_benign ../../IoT_ARM-main/IoT_ARM-main/benign/benign -data_malware ../../IoT_ARM-main/IoT_ARM-main/malware/malware
 ```
+OR
 
+```bash
+python extract_features.py -model resnet -data_benign IS YOUR PATH BENIGN  -data_malware IS YOUR PATH MALWARE
+```
 where: "../../IoT_ARM-main/IoT_ARM-main/benign/benign" is your path bening and "./../IoT_ARM-main/IoT_ARM-main/malware/mal" is your path malware
 
 
